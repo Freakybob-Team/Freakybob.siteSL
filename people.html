@@ -99,7 +99,7 @@
         <button onclick="showInfo('KM')">KM</button>
         <button onclick="showInfo('Noah')">Noah</button>
         <button onclick="showInfo('Gianca')">Gianca</button>
-        <button onclick="showInfo('George')">Stanford</button>
+        <button onclick="showInfo('George')">George</button>
         <button onclick="showInfo('Nintendofan64')">Nintendofan64</button>
         <button onclick="showInfo('Lapis')">Lapis</button>
     </div>
@@ -114,6 +114,8 @@ let giancaClickCount = 0;
 let isGiancaReplaced = false;
 let kmClickCount = 0;
 let isKMReplaced = false;
+let lapisClickCount = 0;
+let isLapisReplaced = false;
 
     
         function showInfo(name) {
@@ -134,7 +136,7 @@ let isKMReplaced = false;
         'Gianca': isGiancaReplaced ? 'images/pfps/giancafort.jpeg' : 'images/pfps/giancanew.png',
         'George': 'images/pfps/George.png',
         'Nintendofan64': 'images/pfps/Nintendofan.png',
-        'Lapis': 'images/pfps/lapispfp.jpg',
+        'Lapis': isLapisReplaced ? 'images/pfps/Lapis.webp' : 'images/pfps/lapispfp.jpg',
             };
 
             const descriptionDiv = document.getElementById('description');
@@ -149,6 +151,8 @@ let isKMReplaced = false;
         image.onclick = handleGiancaImageClick; 
     } else if (name === 'KM') {
         image.onclick = handleKMImageClick;
+    } else if (name === 'Lapis') {
+        image.onclick = handleLapisImageClick;
     }
 }
         function handleGiancaImageClick() {
@@ -169,6 +173,16 @@ function handleKMImageClick() {
         const image = document.getElementById('personImage');
         image.src = 'images/pfps/KM.png';
         isKMReplaced = true;
+    }
+}
+function handleLapisImageClick() {
+    if (isLapisReplaced) return;
+
+    lapisClickCount++;
+    if (lapisClickCount >= 10) {
+        const image = document.getElementById('personImage');
+        image.src = 'images/pfps/Lapis.webp';
+        isLapisReplaced = true;
     }
 }
     </script>
