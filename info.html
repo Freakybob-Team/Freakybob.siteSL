@@ -291,58 +291,6 @@
     </div>
 <strong><h3>Can this website get taken down by Viacom, Nickolodeon or Nintendo?</h3></strong>
 <p id="para4">We are not using any copyrighted music, images, or videos (YouTube embeds) in this website. The only copyrighted music we have used throughout the website is Wii U soundtracks which is licensed by Nintendo. It would be very rare for the website to be taken down by Nintendo but knowing the way Nintendo acts, it could be very possible. If the website were to be taken down for any reason, we would find a way to keep it up without doing anything bad.</p>
-    <script>
-        let currentIndex = 0;
-        const images = document.querySelectorAll('#image-track img');
-        const totalImages = images.length;
-        const modal = document.getElementById("image-modal");
-        const modalImage = document.getElementById("modal-image");
-
-        function updateCarousel() {
-            const imageTrack = document.getElementById('image-track');
-            const width = images[0].clientWidth;
-            imageTrack.style.transform = `translateX(-${currentIndex * width}px)`;
-        }
-
-        function nextImage() {
-            currentIndex = (currentIndex + 1) % totalImages;
-            updateCarousel();
-        }
-
-        function prevImage() {
-            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-            updateCarousel();
-        }
-
-        function openModal(src) {
-            modalImage.src = src;
-            modal.style.display = "flex";
-        }
-
-        function closeModal() {
-            modal.style.display = "none";
-        }
-
-        
-        images.forEach(image => {
-            image.addEventListener('click', () => openModal(image.src));
-        });
-
-       
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                closeModal();
-            }
-        }
-
-        
-        window.addEventListener('keydown', (event) => {
-            if (event.key === "Escape") {
-                closeModal();
-            }
-        });
-
-        window.addEventListener('resize', updateCarousel);
-    </script>
+<script src="js/info.js"></script>
 </body>
 </html>
