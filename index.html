@@ -46,8 +46,9 @@
             text-align: center;
             color: rgb(218, 203, 3);
             font-size: 42px;
-            margin-top: 10px;
+            margin-top: -70px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
         }
 
         h2 {
@@ -169,7 +170,7 @@ button:hover {
         #team-button {
             margin-top: 12px;
             padding: 15px 25px;
-            font-size: 18px;
+            font-size: 12px;
             cursor: pointer;
             background-color: rgb(172, 147, 5);
             color: white;
@@ -204,12 +205,12 @@ button:hover {
         }
  #mute-button {
             position: fixed;
-            top: 1px;
-            right: 4px;
-            padding: 7px 1px;
+            margin-top:-640px;
+            margin-right: -1301px;
+            padding: 5px 10px;
             background-color: rgb(1, 170, 128);
             border: none;
-            border-radius: 4px;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 13px;
             z-index: 1001;
@@ -217,25 +218,27 @@ button:hover {
 
         #github-button,
         #discord-button,
-        #bluesky-button {
+        #bluesky-button,
+        #freakyblog-logo,
+        #pikidiary-button {
             position: fixed;
             z-index: 1001;
             display: none; /* imagine being hidden LMAOO */
         }
 
         #github-button {
-           margin-top: -469px;
-            left: 10px;
+           margin-top: 660px;
+        margin-left: 190px;
         }
 
         #discord-button {
-            margin-top: -320px;
-            left: -10px;
+            margin-top: 660px;
+            margin-left: 80px
         }
 
         #bluesky-button {
-            top: 10px;
-            left: 10px;
+            margin-top: 660px;
+            margin-left: -50px;
         }
 
         #github-button img,
@@ -257,10 +260,11 @@ button:hover {
             transform: scale(1.1);
             transition: 0.7s;
         }
+        
         #freakyblog-logo {
             position: fixed;
-            margin-top: -560px;
-            margin-left: -30px;
+            margin-top: 620px;
+            margin-left: -210px;
             border: none;
             background: none;
             cursor: pointer;
@@ -274,7 +278,7 @@ button:hover {
                 transform: scale(1.1);
                 transition: 0.7s;
             }
-
+            
         #gpl-3 {
             text-align: center;
             padding: 15px;
@@ -298,6 +302,21 @@ button:hover {
     transform: scale(1.1);
     transition: 0.7s;
 }
+        #pikidiary-button img {
+            width: 70px;
+            height: 40px;
+            margin-top: -100px;
+        }
+        
+        #pikidiary-button-container {
+            position: fixed;
+            margin-top: 670px;
+            margin-left: -330px;
+        }
+        #pikidiary-button-container:hover {
+            transform: scale(1.1);
+            transition: 0.7s;
+        }
 @media screen and (max-width: 600px) {
     #freakyblog-logo {
         margin-top: -580px;
@@ -359,7 +378,18 @@ button:hover {
         transform: scale(1.1);
         transition: 1.3s;
     }
-
+#language-selector {
+    margin-top: 580px;
+    right: 110px;
+    padding: 7px 1px;
+    background-color: rgb(1, 170, 128);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    z-index: 1001;
+}
+    
 }
     </style>
 </head>
@@ -399,9 +429,12 @@ button:hover {
     <a href="https://bsky.app/profile/freakybob.site" id="bluesky-button">
         <img src="images/Bluesky.png" alt="Bluesky logo">
     </a>
-    <a href="https://pikidiary.lol/users/freakybob" id="piki-button">
+    <div id="pikidiary-button-container">
+    <a href="https://pikidiary.lol/users/freakybob" id="pikidiary-button">
         <img src="images/piki.png" alt="Pikidiary logo">
     </a>
+    </div>
+</div>
     <button id="mute-button" style="display:none;">Mute Music</button>
 <select id="language-selector">
     <option value="en" selected>English</option>
@@ -430,6 +463,9 @@ button:hover {
     const githubButton = document.getElementById('github-button');
     const discordButton = document.getElementById('discord-button');
     const blueskyButton = document.getElementById('bluesky-button');
+    const languageSelector = document.getElementById('language-selector');
+    const pikidiaryButton = document.getElementById('pikidiary-button');
+    const freakyblog = document.getElementById('freakyblog-logo');
     
     thanksButton.addEventListener('click', () => {
         thanksSound.play();
@@ -440,6 +476,9 @@ button:hover {
             discordButton.style.display = 'block';
             blueskyButton.style.display = 'block';
             muteButton.style.display = 'block';
+            pikidiaryButton.style.display = 'block';
+            freakyblog.style.display = 'block';
+
             backgroundMusic.play();
         }, 2000);
     });
@@ -694,5 +733,4 @@ button:hover {
 </body>
 </html>
 <!--I love boys <3 -->
-
 
