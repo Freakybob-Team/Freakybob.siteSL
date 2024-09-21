@@ -264,3 +264,16 @@ if (translations.hasOwnProperty(lang)) {
 
     updateLanguage('en');
 });
+document.addEventListener("DOMContentLoaded", function() {
+    var myAudio = document.getElementById('background-music');
+
+if (myAudio.duration > 0 && !myAudio.paused) {
+
+element = document.getElementById('sound-popup')
+element.delete();
+
+} else {
+
+//Not playing...maybe paused, stopped or never played.
+
+}})
