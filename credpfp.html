@@ -22,13 +22,36 @@ body {
 </style>
 </head>
 <body>
-    <h1>Credit for the profile pictures</h1>
-    <p id="para1">This page is a work in progress and will be updated soon with the right credits :3</p>
+    <h1>Credit for profile pictures!</h1>
+    <div class="contributors">
+        <button onclick="showInfo('KM')">KM</button>
+        <button onclick="showInfo('Noah')">Noah</button>
+        <button onclick="showInfo('Gianca')">Gianca</button>
+        <button onclick="showInfo('George')">George</button>
+        <button onclick="showInfo('Nintendofan64')">Nintendofan64</bu
+        <button onclick="showInfo('Lapis')">Lapis</button>
+    </div>
+    <div id="description" class="description"></div>
+    <script> 
+            function showInfo(name) {
+            const descriptions = {
+        'KM': 'debuatnight on Twitter',
+        'Noah': 'Noah is awesome frfr',
+        'Gianca': 'Fortnite Playing Twi-I mean, Really good at Fortnite!',
+        'George': 'The Coolest Crackhead On Earth!',
+        'Nintendofan64': 'freakybob found my address and posted it on 4chan send help',
+        'Lapis': 'Is a really nice and cool person! (KiKi Simp)',
+            };
+        }
+        const descriptionDiv = document.getElementById('description');
+ descriptionDiv.innerText = descriptions[name] || 'Information not available.'
+    </script>
     <a href="https://freakybob.site/">Go back to Freakybob.site</a>
     <audio>
         src="audio/03 - System Music - First Time Setup (TV).mp3"
         autoplay
         loop
     </audio>
+    <!-- pwease fix this squirrel its a mess-->
 </body>
 </html>
