@@ -112,7 +112,96 @@ button:hover {
             background-color: rgb(218, 203, 3);
             transform: translateY(-3px) scale(1.05);
         }
-
+#info-button {
+    margin-top: 12px;
+            padding: 15px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgb(172, 147, 5);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            max-width: 220px;
+            width: 100%;
+        }
+#info-button:hover {
+            background-color: rgb(218, 203, 3);
+            transform: translateY(-3px) scale(1.05);
+        }
+        #gallery-button {
+            margin-top: 12px;
+            padding: 15px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgb(172, 147, 5);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            max-width: 220px;
+            width: 100%;
+        }
+        #gallery-button:hover {
+            background-color: rgb(218, 203, 3);
+            transform: translateY(-3px) scale(1.05);
+        }
+        #music-button {
+            margin-top: 12px;
+            padding: 15px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgb(172, 147, 5);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            max-width: 220px;
+            width: 100%;
+        }
+        #music-button:hover {
+            background-color: rgb(218, 203, 3);
+            transform: translateY(-3px) scale(1.05);
+        }
+        #team-button {
+            margin-top: 12px;
+            padding: 15px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgb(172, 147, 5);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            max-width: 220px;
+            width: 100%;
+        }
+        #team-button:hover {
+            background-color: rgb(218, 203, 3);
+            transform: translateY(-3px) scale(1.05);
+        }
+        #activities-button {
+            margin-top: 12px;
+            padding: 15px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgb(172, 147, 5);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            max-width: 220px;
+            width: 100%;
+        }
+        #scratch-button:hover {
+            background-color: rgb(218, 203, 3);
+            transform: translateY(-3px) scale(1.05);
+        }
  #mute-button {
             position: fixed;
             top: 1px;
@@ -170,12 +259,14 @@ button:hover {
         }
         #freakyblog-logo {
             position: fixed;
-            margin-top: -476px;
+            margin-top: -560px;
+            margin-left: -30px;
             border: none;
             background: none;
             cursor: pointer;
         }
         #freakyblog-logo img {
+            position: fixed;
             width: 40px;
             height: 40px;
         }
@@ -188,31 +279,113 @@ button:hover {
             text-align: center;
             padding: 15px;
         }
+        a {
+    text-decoration: none;
+}
+#language-selector {
+    position: fixed;
+    margin-top: -560px;
+    right: 4px;
+    padding: 7px 1px;
+    background-color: rgb(1, 170, 128);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    z-index: 1001;
+}
+#language-selector:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+@media screen and (max-width: 600px) {
+    #freakyblog-logo {
+        margin-top: -580px;
+    }
+    #marquee-text {
+        font-size: 15px;
+    }
+    #info-button {
+        font-size: 15px;
+    }
+    #team-button {
+        font-size: 15px;
+    }
+    #gallery-button {
+        font-size: 15px;
+    }
+    #music-button {
+        font-size: 15px;
+    }
+    #scratch-button {
+        font-size: 15px;
+    }
+    #github-button {
+        margin-top: -469px;
+        left: 10px;
+    }
+    #discord-button {
+        margin-top: -320px;
+        left: -10px;
+    }
+    #bluesky-button {
+        top: 10px;
+        left: 10px;
+    }
+    #github-button img,
+    #bluesky-button img {
+        width: 40px;
+        height: 40px;
+    }
+    #github-button img:hover,
+    #bluesky-button img:hover {
+        transform: scale(1.1);
+        transition: 0.7s;
+    }
+    #discord-button img {
+        width: 80px;
+        height: 60px;
+    }
+    #discord-button img:hover {
+        transform: scale(1.1);
+        transition: 0.7s;
+    }
+    #freakyblog-logo img {
+        margin-top: 59px;
+        width: 40px;
+        height: 40px;
+    }
+    #freakyblog-logo:hover {
+        transform: scale(1.1);
+        transition: 1.3s;
+    }
+    
+}
     </style>
 </head>
 <body>
-    <h1>Freakybob</h1>
+    <h1 id="main-title">Freakybob</h1>
     <a href="http://blog.freakybob.site/" id="freakyblog-logo" width="60px" height="60px">
         <img src="images/freakyblog.png" alt="freakyblog">
     </a>
-    <a href="https://freakybob.site/info"><button>Check out the info page!</button></a>
+    <a href="https://freakybob.site/info" id="info-button"><button>Check out the info page!</button></a>
     <h2>
-        <marquee>The website is making me genuinely tweak :3 | Check out the new Freakyblog page by clicking the spongebob below the "Freakybob"! | Updates will mostly happen in the weekend! </marquee>
+        <marquee id="marquee-text">The website is making me genuinely tweak :3 | Check out the new Freakyblog page by clicking the spongebob below the "Freakybob"! | Updates will mostly happen in the weekend! </marquee>
     </h2>
-    <a href="https://freakybob.site/team" ><button>See the team behind freakybob.site!</button></a>
-    <a href="https://freakybob-team.github.io/image-gallery/"><button>Check out the image gallery!</button></a>
-    <a href="https://freakybob.site/musicgallery" ><button>Listen to Spongebob music!</button></a>
+    <a href="https://freakybob.site/team" id="team-button"><button>See the team behind freakybob.site!</button></a>
+    <a href="https://freakybob-team.github.io/image-gallery/" id="gallery-button"><button>Check out the image gallery!</button></a>
+    <a href="https://freakybob.site/musicgallery" id="music-button"><button>Listen to Spongebob music!</button></a>
      <!-- fun fact: Wish tried to add a cookie to sound popup to make it disappear! it failed though -->
      <div id="sound-popup" class="popup">
         <div class="popup-content">
-            <p>Welcome to freakybob.site! Hope you enjoy the website just as much as we do!</p>
+            <p id="popup-text">Welcome to freakybob.site! Hope you enjoy the website just as much as we do!</p>
             <button id="thanks-button">Thanks!</button>
             <audio id="hover" src="audio/hover-sound-effect.mp3" preload="auto"></audio>
             <!-- The hover noise is never gonna work vroo-->
             <audio id="thanks-sound" src="audio/old-radio-button-click-97549.mp3" preload="auto"></audio>
         </div>
     </div>
-    <a href="https://scratch.mit.edu/projects/1059751585/" id="scratch-button"><button>Freakybob clicker (Scratch)</button></a>
+    <a href="https://freakybob.site/activities" id="activities"><button id="activities-button">More activities!</button></a>
     <audio id="background-music" loop>
         <source src="audio/03 - System Music - First Time Setup (TV).mp3" type="audio/mp3">
     </audio>
@@ -227,8 +400,25 @@ button:hover {
         <img src="images/Bluesky.png" alt="Bluesky logo">
     </a>
     <button id="mute-button" style="display:none;">Mute Music</button>
-
-    <script>
+<select id="language-selector">
+    <option value="en" selected>English</option>
+    <option value="es">Español</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="lc">English (lolcat)</option>
+    <option value="jp">日本語</option>
+    <option value="ko">한국어</option>
+    <option value="ru">Русский</option>
+    <option value="it">Italiano</option>
+    <option value="pt">Português</option>
+    <option value="pl">Polski</option>
+    <option value="tr">Türkçe</option>
+    <option value="th">ไทย</option>
+    <option value="vi">Tiếng Việt</option>
+    <option value="uk">Українська</option>
+    <option value="zh">简体中文</option>
+</select>
+<script>
     const popup = document.getElementById('sound-popup');
     const thanksButton = document.getElementById('thanks-button');
     const thanksSound = document.getElementById('thanks-sound');
@@ -237,7 +427,7 @@ button:hover {
     const githubButton = document.getElementById('github-button');
     const discordButton = document.getElementById('discord-button');
     const blueskyButton = document.getElementById('bluesky-button');
-
+    
     thanksButton.addEventListener('click', () => {
         thanksSound.play();
         popup.classList.add('fade-out');
@@ -250,7 +440,7 @@ button:hover {
             backgroundMusic.play();
         }, 2000);
     });
-
+    
     function toggleMusic() {
         if (backgroundMusic.paused) {
             backgroundMusic.play();
@@ -260,22 +450,246 @@ button:hover {
             muteButton.textContent = 'Unmute Music';
         }
     }
-
+    
     muteButton.addEventListener('click', toggleMusic);
-
+    
     window.addEventListener('load', () => {
         setTimeout(() => popup.style.display = 'flex', 500);
     });
-</script>
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const translations = {
+    en: {
+        mainTitle: 'Freakybob',
+        marqueeText: 'The website is making me genuinely tweak :3 | Check out the new Freakyblog page!',
+        popupText: 'Welcome to freakybob.site! Hope you enjoy the website just as much as we do!',
+        infoButton: 'Check out the info page!',
+        teamButton: 'See the team behind freakybob.site!',
+        galleryButton: 'Check out the image gallery!',
+        musicButton: 'Listen to Spongebob music!',
+        activitiesButton: 'More activities!',
+        popupText: 'Welcome to freakybob.site! Hope you enjoy the website just as much as we do!',
+        thanksButton: 'Thanks!',
+    },
+    es: {
+        mainTitle: 'Freakybob',
+        marqueeText: '¡Este sitio web realmente me pone a prueba! | ¡Echa un vistazo a la nueva página Freakyblog!',
+        popupText: '¡Bienvenido a freakybob.site! ¡Esperamos que disfrutes el sitio web tanto como nosotros!',
+        infoButton: '¡Visita la página de información!',
+        teamButton: '¡Conoce al equipo detrás de freakybob.site!',
+        galleryButton: '¡Mira la galería de imágenes!',
+        musicButton: '¡Escucha música de Spongebob!',
+        activitiesButton: '¡Mas actividades!',
+        popupText: '¡Bienvenido a freakybob.site! ¡Esperamos que disfrutes el sitio web tanto como nosotros!',
+        thanksButton: '¡Gracias!',
+
+    },
+    fr : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Le site Internet fait-il vraiment le maitre :3 | Regardez la nouvelle page de Freakyblog!',
+        popupText: 'Bienvenue sur freakybob.site! Nous sommes impatients de vous offrir le site Internet comme nous le faisons!',
+        infoButton: 'Regardez la page d\'information!',
+        teamButton: 'Venez voir le team derrière freakybob.site!',
+        galleryButton: 'Regardez la galerie d\'images!',
+        musicButton: 'Ecoutez la musique depongebob!',
+        activitiesButton: 'Dernières d\'activité!',
+        popupText: 'Bienvenue sur freakybob.site! Nous sommes impatients de vous offrir le site Internet comme nous le faisons!',
+        thanksButton: 'Merci!',
+
+    },
+    de: {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Diese Website macht mich echt fertig! | Schau dir die neue Freakyblog-Seite an!',
+        popupText: 'Willkommen auf freakybob.site! Wir hoffen, dass dir die Website genauso gefällt wie uns!',
+        infoButton: 'Schau dir die Infoseite an!',
+        teamButton: 'Sieh dir das Team hinter freakybob.site an!',
+        galleryButton: 'Schau dir die Bildergalerie an!',
+        musicButton: 'Höre Spongebob-Musik!',
+        activitiesButton: 'Mehr Aktivität!',
+        popupText: 'Willkommen auf freakybob.site! Wir hoffen, dass dir die Website genauso gefäch wie uns!',
+        thanksButton: 'Danke!',
+    }
+    ,jp : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'このウェブサイトは本当に機能するように作りました | 新しいFreakyblogのページをチェックしてください',
+        popupText: 'Freakybob.siteへようこそ! このウェブサイトを楽しんでいただきありがとうございます!',
+        infoButton: 'Freakyblogのページを確認してください',
+        teamButton: 'Freakybobのページに行ってみてください',
+        galleryButton: 'Freakybobのページに行ってみてください',
+        musicButton: 'Freakybobのページに行ってみてください',
+        activitiesButton: '活動を見てください',
+        popupText: 'Freakybob.siteへようこそ! このウェブサイトを楽しんでいただきありがとうございます!',
+        thanksButton: 'ありがとうございます!',
+    }
+    ,ko : {
+        mainTitle: 'Freakybob',
+        marqueeText: '웹사이트이 만족둔하고 한다! | 더의 텍스트를 확인해 보세요!',
+        popupText: '프레이티브박스가 freakybob.site에 접근하고 어떤을!',
+        infoButton: '프레이티브박스를 확인해 보세요!',
+        teamButton: '프레이티브박스를 확인해 보세요!',
+        galleryButton: '프레이티브박스를 확인해 보세요!',
+        musicButton: '프레이티브박스를 확인해 보세요!',
+        activitiesButton: '프레이티브박스를 확인해 보세요!',
+        popupText: '프레이티브박스가 freakybob.site에 접근하고 어떤을!',
+        thanksButton: '프레이티브박스를 확인해 보세요!',
+    }
+    ,pt : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'O site está a fazer-me realmente tweaking :3 | Veja a nova página do Freakyblog!',
+        popupText: 'Bem-vindo ao freakybob.site! Esperamos que goste do site como eu fizemos!',
+        infoButton: 'Veja a página de informação!',
+        teamButton: 'Veja o time de traço do freakybob.site!',
+        galleryButton: 'Veja a galleria de imagens!',
+        musicButton: 'Escute a música de.spongebob!',
+        activitiesButton: 'Mais Atividade!',
+        popupText: 'Bem-vindo ao freakybob.site! Esperamos que goste do site como eu fizemos!',
+        thanksButton: 'Obrigado!',
+    }
+
+    ,pl : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'To strona jest robiać mi prawdopodobnie zmiany :3 | Sprawdź nową stronę Freakyblog!',
+        popupText: 'Witaj na freakybob.site! Zapewniamy, że zobaczyłes strone jak ja zrobiłes!',
+        infoButton: 'Sprawdź stronę informacyjną!',
+        teamButton: 'Sprawdź drapień przeciw freakybob.site!',
+        galleryButton: 'Sprawdź galerię obrazów!',
+        musicButton: 'Ogarnij muzyczę spongebob!',
+        activitiesButton: 'Mehr Aktivitä!',
+        thanksButton: 'Dziekuje!',
+    }
+    ,tr : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Bu site size hızlıca çıkaracak :3 | Lütfen yeni Freakyblog sayfasını deneyin!',
+        popupText: 'Freakybob.site\'e hos geldiniz! Burada site size hızlıca çıkaracaktır!',
+        infoButton: 'Freakyblog sayfasını deneyin!',
+        teamButton: 'Freakybob sayfasını deneyin!',
+        galleryButton: 'Freakybob sayfasını deneyin!',
+        musicButton: 'Freakybob sayfasını deneyin!',
+        activitiesButton: 'Freakybob sayfasını deneyin!',
+        popupText: 'Freakybob.site\'e hos geldiniz! Burada site size hızlıca çıkaracaktır!',
+        thanksButton: 'Tesekkürler!',
+    }
+    ,th : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Website จะใช้งานตอนนี้แล้ว :3 | ดูหน้าต่างใหม่ของ Freakyblog!',
+        popupText: 'ยินดีต้อนรับสู่ freakybob.site! ระบบของคุณจะใช้งานตอนนี้แล้ว!',
+        infoButton: 'ดูหน้าต่างข้อมูล!',
+        teamButton: 'ดูทีมของคุณที่หลังจาก freakybob.site!',
+        galleryButton: 'ดูภาพกิจกรรม!',
+        musicButton: 'ดูเพลง spongebob!',
+        activitiesButton: 'ดูกิจกรรม!',
+        popupText: 'ยินดีต้อนรับสู่ freakybob.site! ระบบของคุณจะใช้งานตอนนี้แล้ว!',
+        thanksButton: 'ขอบคุณ!',
+    }
+    ,vi : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Website đang được đầu tư đã :3 | Xem trang mới nhất của Freakyblog!',
+        popupText: 'Chào mừng đến freakybob.site! Chúng tôi mong muốn được ủng hộ trang web này!',
+        infoButton: 'Xem trang thông tin!',
+        teamButton: 'Xem đội ngũ trước freakybob.site!',
+        galleryButton: 'Xem hình ảnh!',
+        musicButton: 'Nghe nhạc spongebob!',
+        activitiesButton: 'Xem hoạt động!',
+        popupText: 'Chào mừng đến freakybob.site! Chúng tôi mong muốn được ủng hộ trang web này!',
+        thanksButton: 'Cảm ơn!',
+    }
+    ,uk : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Віддалено :3 | Перегляньте нову сторінку Freakyblog!',
+        popupText: 'Добро пожаловать на freakybob.site! Мы рады, что вам понравилось сайт как мы это делали!',
+        infoButton: 'Перегляньте сторінку інформації!',
+        teamButton: 'Перегляньте команду против freakybob.site!',
+        galleryButton: 'Перегляньте галерею зображень!',
+        musicButton: 'Слухай музику spongebob!',
+        activitiesButton: 'Інші активності!',
+        popupText: 'Добро пожаловать на freakybob.site! Мы рады, что вам понравилось сайт как мы это делали!',
+        thanksButton: 'Дякую!',
+    }
+    ,zh : {
+        mainTitle: 'Freakybob',
+        marqueeText: '这个站点已经 :3 | 看看新的 Freakyblog 页面!',
+        popupText: '欢迎来到 freakybob.site! 我们很高兴为您服务!',
+        infoButton: '看看信息页面!',
+        teamButton: '看看我们的队伍后面的 freakybob.site!',
+        galleryButton: '看看照片活动!',
+        musicButton: '听听.spongebob 音乐!',
+        activitiesButton: '更多活动!',
+        popupText: '欢迎来到 freakybob.site! 我们很高兴为您服务!',
+        thanksButton: '谢谢!',
+    }
+    ,ru : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Это сайт сделал-мы вполне нравится :3 | Посмотрите новую страницу Freakyblog!',
+        popupText: 'Добро пожаловать на freakybob.site! Мы рады, что вам понравилось сайт как мы это делали!',
+        infoButton: 'Посмотрите страницу информации!',
+        teamButton: 'Посмотрите команду против freakybob.site!',
+        galleryButton: 'Посмотрите галерею изображений!',
+        musicButton: 'Слушай музыку.spongebob!',
+        activitiesButton: 'Ещё активности!',
+        popupText: 'Добро пожаловать на freakybob.site! Мы рады, что вам понравилось сайт как мы это делали!',
+        thanksButton: 'Спасибо!',
+    }
+    ,it : {
+        mainTitle: 'Freakybob',
+        marqueeText: 'Il sito è facendo di molto bello :3 | Clicca sul nuovo sito di Freakyblog!',
+        popupText: 'Benvenuto su freakybob.site! Abbiamo apprezzato il sito come lo facciamo!',
+        infoButton: 'Clicca sul sito di informazione!',
+        teamButton: 'Clicca sul team di freakybob.site!',
+        galleryButton: 'Clicca sul galleria di immagini!',
+        musicButton: 'Ascolta la canzone di spongebob!',
+        activitiesButton: 'Altre attività!',
+        popupText: 'Benvenuto su freakybob.site! Abbiamo apprezzato il sito come lo facciamo!',
+        thanksButton: 'Grazie!',
+    }
+  ,lc : {
+    mainTitle: 'Feakybob',
+        marqueeText: 'TEH WEBSIET IZ MAKIN ME GENUINELY TWEAK :3 | CHECK OUT TEH NEW FREAKYBLOG PAEG BY CLICKIN TEH SPONGEBOB BELOW TEH "FREAKYBOB"! | UPDATEZ WILL MOSTLY HAPPEN IN DA WEEKEND!',
+        popupText: 'Welcome to freakybob.site! Hope you enjoy the website just as much as we do!',
+        infoButton: 'CHECK OUT TEH INFO PAEG!',
+        teamButton: 'See the team behind freakybob.site!',
+        galleryButton: 'Check out the image gallery!',
+        musicButton: 'Listen to Spongebob music!',
+        activitiesButton: 'More activities!',
+        popupText: 'Welcome to freakybob.site! Hope you enjoy the website just as much as we do!',
+        thanksButton: 'kthxbai',
+    }
+
+    };
+
+    
+        const languageSelector = document.getElementById('language-selector');
+    
+        function updateLanguage(lang) {
+    document.getElementById('main-title').textContent = translations[lang].mainTitle;
+    document.getElementById('info-button').textContent = translations[lang].infoButton;
+    document.getElementById('team-button').textContent = translations[lang].teamButton;
+    document.getElementById('gallery-button').textContent = translations[lang].galleryButton;
+    document.getElementById('music-button').textContent = translations[lang].musicButton;
+    document.getElementById('activities-button').textContent = translations[lang].activitiesButton;
+    document.getElementById('marquee-text').textContent = translations[lang].marqueeText;
+    document.getElementById('popup-text').textContent = translations[lang].popupText;
+    document.getElementById('thanks-button').textContent = translations[lang].thanksButton;
+        }
+    
+        function setLanguage(lang) {
+    if (translations.hasOwnProperty(lang)) {
+        languageSelector.value = lang;
+        updateLanguage(lang);
+    }
+        }
+    
+        languageSelector.addEventListener('change', (event) => {
+            const selectedLanguage = event.target.value;
+            updateLanguage(selectedLanguage);
+        });
+    
+        updateLanguage('en');
+    });
+    </script>
+    
 <footer id="gpl-3">No Rights Reserved. All pages are licensed under GPL-3.</footer>
 </body>
 </html>
 <!--I love boys <3 -->
-
-
-
-
-
-
 
 
