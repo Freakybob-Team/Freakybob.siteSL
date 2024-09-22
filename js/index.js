@@ -247,14 +247,6 @@ mainTitle: 'Feakybob',
     thanksButton: 'greg!',
 }
 };
-
-    const body = document.body; 
-    if (lang === 'gr') {
-        body.classList.add('greg');
-    } else {
-        body.classList.remove('greg');
-    }
-}
     const languageSelector = document.getElementById('language-selector');
 
     function updateLanguage(lang) {
