@@ -234,6 +234,18 @@ mainTitle: 'Feakybob',
     popupText: 'Welcome to freakybob.site! Hope you enjoy the website just as much as we do!',
     thanksButton: 'kthxbai',
 }
+,gr : {
+    mainTitle: 'Gregreg',
+    marqueeText: 'The gregsite is greging me greguinely greg :3 | Greg out the geg Gregregblog grah by greging the gregbob greglow the "Grggreg"!',
+    popupText: 'Greg greg greg to gregreg! Greg you gregy the gregsite grst as greg greg as we do!',
+    infoButton: 'Clicca sul sito di informazione!',
+    teamButton: 'Clicca sul team di freakybob.site!',
+    galleryButton: 'Clicca sul galleria di immagini!',
+    musicButton: 'Ascolta la canzone di spongebob!',
+    activitiesButton: 'Altre attività!',
+    popupText: 'Benvenuto su freakybob.site! Abbiamo apprezzato il sito come lo facciamo!',
+    thanksButton: 'Grazie!',
+}
 };
 
     const languageSelector = document.getElementById('language-selector');
