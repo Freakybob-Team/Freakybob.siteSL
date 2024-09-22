@@ -74,11 +74,17 @@ margin-right: 500px;
 #downloads {
 margin-right: 500px;
 }
+#draw {
+margin-right: 500px;
+}
 @media screen and (max-width: 600px) {
 #countdown {
 margin-right: 0px;
 }
 #downloads {
+margin-right: 0px;
+}
+    #draw {
 margin-right: 0px;
 }
 #para2 {
