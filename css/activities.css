@@ -14,9 +14,23 @@ h1 {
     margin-bottom: 20px;
 }
 #para2 {
-    text-align: center;
+    margin-left: -510px;
     color: rgb(229, 236, 13);
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+#para3 {
+    margin-left: -510px;
+    color: rgb(229, 236, 13);
+    font-size: 16px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+#para4 {
+    margin-left: -510px;
+    color: rgb(229, 236, 13);
+    font-size: 16px;
     margin-top: 20px; 
     margin-bottom: 20px;
 }
@@ -61,13 +75,7 @@ h1 {
     color: #d9e011;
     transform: scale(1.1);
 }
-#para2 {
-    margin-left: -510px;
-    color: rgb(229, 236, 13);
-    font-size: 16px;
-    margin-top: 20px; 
-    margin-bottom: 20px;
-}
+
 #countdown {
 margin-right: 500px;
 }
