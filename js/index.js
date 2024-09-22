@@ -249,9 +249,9 @@ mainTitle: 'Feakybob',
 };
 
         if (lang === 'gr') {
-        document.body.classList.add('greek-background');
+        document.body.classList.add('greg');
     } else {
-        document.body.classList.remove('greek-background');
+        document.body.classList.remove('greg');
     }
 }
 
