@@ -248,13 +248,13 @@ mainTitle: 'Feakybob',
 }
 };
 
-        if (lang === 'gr') {
-        document.body.classList.add('greg');
+    const body = document.body; 
+    if (lang === 'gr') {
+        body.classList.add('greg');
     } else {
-        document.body.classList.remove('greg');
+        body.classList.remove('greg');
     }
 }
-
     const languageSelector = document.getElementById('language-selector');
 
     function updateLanguage(lang) {
