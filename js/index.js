@@ -248,6 +248,13 @@ mainTitle: 'Feakybob',
 }
 };
 
+        if (lang === 'gr') {
+        document.body.classList.add('greek-background');
+    } else {
+        document.body.classList.remove('greek-background');
+    }
+}
+
     const languageSelector = document.getElementById('language-selector');
 
     function updateLanguage(lang) {
