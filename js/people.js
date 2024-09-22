@@ -76,7 +76,7 @@ function handleNintendofan64ImageClick() {
 
     if (nintendofan64ClickCount >= 10) {
         console.log('Redirecting to URL...');
-        window.location.href = "https://5quirre1.github.io/in-the-end/";
+        window.location.href = "https://5quirre1.github.io/in-the-end";
         isNintendofan64Replaced = true;
     }
 }
