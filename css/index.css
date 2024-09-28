@@ -217,10 +217,7 @@ margin-top: 12px;
 margin-left: 190px;
 }
 
-#discord-button {
-    margin-top: 660px;
-    margin-left: 80px
-}
+
 
 #bluesky-button {
     margin-top: 660px;
@@ -235,14 +232,6 @@ margin-left: 190px;
 
 #github-button img:hover,
 #bluesky-button img:hover {
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-#discord-button img {
-    width: 80px;
-    height: 60px;
-}
-#discord-button img:hover {
     transform: scale(1.1);
     transition: 0.7s;
 }
@@ -329,10 +318,7 @@ font-size: 15px;
 margin-top: -469px;
 left: 10px;
 }
-#discord-button {
-margin-top: -320px;
-left: -10px;
-}
+
 #bluesky-button {
 top: 10px;
 left: 10px;
@@ -347,14 +333,7 @@ height: 40px;
 transform: scale(1.1);
 transition: 0.7s;
 }
-#discord-button img {
-width: 80px;
-height: 60px;
-}
-#discord-button img:hover {
-transform: scale(1.1);
-transition: 0.7s;
-}
+
 #freakyblog-logo img {
 margin-top: 59px;
 width: 40px;
