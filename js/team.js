@@ -5,7 +5,7 @@ function showInfo(name) {
         'Hater': '#2 Twitter Hater helped with giving all sorts of spongebob images!',
         'mpax':  'Mpax helps with the 3DS and IE6 versions! He also makes little tweaks to improve the site.',
         'names': 'Names helps with the Freakyblog, and also improves the sites!',
-        'Nomaakip': 'Is now a part of the freakybob team and added some images to the image gallery!',
+        'Nomaakip': 'Nomaakip is now a part of the Freakybob Team and added some images to the image gallery!',
     };
     const images = {
         'Squirrel': 'images/pfps/Boykisser Squirrel.png',
