@@ -1,5 +1,5 @@
 on: [push]
-...
+  ...
       steps:
         - uses: actions/checkout@v3
           with:
@@ -9,3 +9,4 @@ on: [push]
             REMOTE: 'https://codeberg.org/Freakybob/Freakybob.site'
             GIT_USERNAME: wish13yt
             GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
+            DEBUG: "true"
