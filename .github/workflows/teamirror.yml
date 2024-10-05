@@ -1,9 +1,6 @@
 # Pushes the contents of the repo to the Codeberg mirror
 name: Mirror to Gitea
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '10 03 * * 0' # At 03:10 on Sunday
+on: push
 jobs:
   codeberg:
     runs-on: ubuntu-latest
