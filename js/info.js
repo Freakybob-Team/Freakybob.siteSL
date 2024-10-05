@@ -23,7 +23,9 @@ function openModal(src) {
 function closeModal() {
     modal.style.display = "none";
 }
-
+function showInfo() {
+    const point = "Listen, you do not know how many times we hear this. The point of the website is just freakybob and having fun! Simple.'
+}
 images.forEach(image => {
     image.addEventListener('click', () => openModal(image.src));
 });
