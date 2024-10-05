@@ -1,4 +1,6 @@
-Prefer Codeberg/Gitea? We have that too. https://codeberg.org/Freakybob/Freakybob.site https://gitea.com/Freakybob/Freakybob.site
+Prefer Codeberg or Disroot? We have that too. 
+https://codeberg.org/Freakybob/Freakybob.site 
+https://git.disroot.org/Freakybob/Freakybob.site
 <img src="images/fbanner.png">
 Freakybob.site is a website made by 5quirrel, wish13yt, #2 Twitter Hater and other contributors! 
 Welcome to the offical Github of Freakybob.site where the website was first birthed!
