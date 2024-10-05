@@ -21,6 +21,29 @@ h3 {
     color: #dbde06;
     margin-top: -50px;
 }
+a {
+    color: rgb(203, 171, 233);
+
+}
+h4 {
+    text-align: center;
+    font-size: 40px;
+    color: #e0ba9c;
+    margin-top: -5px;
+}
+#para4 {
+    color: rgb(2, 254, 250);
+    font-size: 20px;
+}
+#para5 {
+    color: aqua;
+    margin-top: -50px;
+}
+#para6 {
+    color: rgb(12, 240, 149);
+    margin-top: 40px;
+    text-align: left;
+}
 .button-container {
     text-align: center;
     margin-top: 20px;
@@ -106,10 +129,7 @@ h3 {
     font-size: 14px;
     color: #bede09;
 }
-#para4 {
-    color: rgb(2, 254, 250);
-    font-size: 20px;
-}
+
 .modal {
     display: none; 
     position: fixed;
@@ -136,6 +156,21 @@ h3 {
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+}
+.point-button {
+    border-radius: 7px;
+    color: #a9e411;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+   margin-left: 634px;
+   background-color: #106d7e;
+}
+.description {
+    color: rgb(174, 184, 34);
+    background-color: rgb(8, 128, 128);
+    border-radius: 9px;
+    font-size: 20px;
 }
 @media (max-width: 768px) {
     .content-wrapper {
@@ -208,8 +243,8 @@ h3 {
     align-items: center;
 }
 .modal img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 110%;
+    max-height: 160%;
     border: 5px solid white;
     border-radius: 10px;
 }
@@ -228,4 +263,23 @@ h3 {
     color: #dbde06;
     margin-top: 90px;
 }
-    }   
+h4 {
+    text-align: center;
+    font-size: 40px;
+    color: #dbde06;
+    margin-top: -30px;
+}
+
+#para6 {
+    color: rgb(12, 221, 218);
+    font-size: 20px;
+    text-align: center;
+
+}
+.point-button {
+    background-color: #106d7e;
+    margin-left: 60px;
+    border: #dbde06;
+    border-radius: 7px;
+}
+} 
