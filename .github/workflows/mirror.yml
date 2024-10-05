@@ -1,6 +1,7 @@
 on: [push]
 ...
 jobs:
+    codeberg:
       steps:
         - uses: actions/checkout@v3
           with:
