@@ -1,26 +1,41 @@
 function showInfo(id) {
-    var para = document.getElementById('para7');
-    para.style.display = para.style.display === 'block' ? 'none' : 'block';
-  }
-  function showInfo(id) {
     var descriptionDiv = document.getElementById('description');
-    var para = document.getElementById('para7');
-    
-    if (!para) {
-      para = document.createElement('p');
-      para.id = 'para7';
-      para.textContent = 'Listen, you do not know how many times we hear this. The point of the website is just a website refering to the meme Freakybob and just having fun LMAO';
+    descriptionDiv.innerHTML = '';
+  
+    if (id) {
+      var para = document.createElement('p');
+      para.id = id;
+  
+      var messages = {
+        'point': 'Listen, you do not know how many times we hear this. The point of this website is just refering to the meme Freakybob and just having random ah features in the website :3',
+        'DouKnow': 'No, I do not.'
+      };
+  
+      para.textContent = messages[id] || 'Unknown message';
       descriptionDiv.appendChild(para);
+  
+      var closeButton = document.createElement('button');
+      closeButton.textContent = 'Close';
+      closeButton.onclick = function() {
+        showInfo('');
+      };
+      descriptionDiv.appendChild(closeButton);
     }
-    
-    para.style.display = para.style.display === 'block' ? 'none' : 'block';
+    para.style.display = 'block';
+    descriptionDiv.scrollIntoView({ behavior: 'smooth' });
   }
+  var descriptionDiv = document.getElementById('description');
+  descriptionDiv.addEventListener('click', function(event) {
+    var target = event.target;
+    if (target !== descriptionDiv && !descriptionDiv.contains(target)) {
+      showInfo('');
+    }
+  });
 let currentIndex = 0;
 const images = document.querySelectorAll('#image-track img');
 const totalImages = images.length;
 const modal = document.getElementById("image-modal");
 const modalImage = document.getElementById("modal-image");
-const descriptionDiv = document.getElementById('description');
 function updateCarousel() {
     const imageTrack = document.getElementById('image-track');
     const width = images[0].clientWidth;
@@ -53,7 +68,9 @@ window.onclick = function(event) {
 }
 
 window.addEventListener('keydown', (event) => {
-    if (event.key === "Escape") {
+    if (event.key === "Escape"
+        (event.key ===";")
+    ) {
         closeModal();
     }
 });
