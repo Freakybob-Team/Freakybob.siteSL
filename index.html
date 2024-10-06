@@ -12,7 +12,7 @@
     <meta content="#006b79" data-react-helmet="true" name="theme-color" />
     <link rel="icon" type="image/x-icon" href="images/Main.ico">
     <link rel="stylesheet" href="css/index.css">
-    <!-- The Common Crawl dataset. Used by GPT-3 (and GPT-3.5) and available for others. -->
+     <!-- The Common Crawl dataset. Used by GPT-3 (and GPT-3.5) and available for others. -->
 <meta name="CCBot" content="nofollow">
 
 <!-- Used by DeviantArt, ArtStation, etc. based on opt-in or opt-out -->
@@ -27,20 +27,19 @@
         <h1 id="main-title">Freakybob</h1>
         <a>To continue to the website, please enable JavaScript.</a>
     </noscript>
-    <h1 id="main-title">Freakybob</h1>
-    <a href="http://blog.freakybob.site/" id="freakyblog-logo" width="60px" height="60px">
-        <img src="images/freakyblog.png" alt="freakyblog">
-    </a>
-    <a href="https://freakybob.site/info" id="info-button"><button>Check out the info page!</button></a>
+    <a href="https://freakybob.site/info" id="main-title"><button>Freakybob</button></a>
+<!--Holy fuck, I'm ruining the code. Names and Wish are better than me at everything. Help :sob:-->
     <h2>
-        <marquee id="marquee-text">Welcome <a href="https://github.com/nomaakip">Nomaakip</a> to the Freakybob Team!</marquee>
+        <marquee id="marquee-text">The buttons are being moved to <a href="https://freakybob.site/activities">Activities page.</a> | Socials have been moved to a new page. Click on the Spongebob Icon in the left corner or click <a href="https://freakybob.site/Socials">here</a></marquee>
     </h2>
+   
+    <marquee id="marquee-text">The buttons are being moved to <a href="https://freakybob.site/activities">Activities page.</a> | Socials have been moved to a new page. Click on the Spongebob Icon in the left corner or click <a href="https://freakybob.site/Socials">here.</a> | The languages are outdated, we'll fix it later. | Website is really broken from new updates, may be cooked.</marquee>
+    
+    <!--These are the buttons that i'm keeping on the screen. All the other buttons that used to be here are going into the activities.html.-->
     <a href="https://freakybob.site/team" id="team-button"><button>See the team behind freakybob.site!</button></a>
-    <a href="https://freakybob-team.github.io/image-gallery/" id="gallery-button"><button>Check out the image gallery!</button></a>
     <a href="https://freakybob.site/musicgallery" id="music-button"><button>Listen to Spongebob music!</button></a>
-    <div id="greg">
-    </div>
-     <!-- fun fact: Wish tried to add a cookie to sound popup to make it disappear! it failed though -->
+    <a href="https://freakybob.site/activities" id="activities"><button id="activities-button">Social, Image Gallery and more!</button></a>
+
      <div id="sound-popup" class="popup">
         <div class="popup-content">
             <p id="popup-text">Welcome to freakybob.site! Hope you enjoy the website just as much as we do!</p>
@@ -50,15 +49,17 @@
             <audio id="thanks-sound" src="audio/old-radio-button-click-97549.mp3" preload="auto"></audio>
         </div>
     </div>
-    <a href="https://freakybob.site/activities" id="activities"><button id="activities-button">More activities!</button></a>
-    <audio id="background-music" loop>
+    <!--I don't know what to Do but it seems it only works when these 2 are here. Y'all are smarter so If you know what is wrong, plz help-->
+    <a href="https://freakybob-team.github.io/image-gallery/" id="gallery-button" style="display: none;"><button>Check out the image gallery!</button></a>
+    <a href="https://freakybob.site/info" id="info-button" style="display: none;"><button>Check out the info page!</button></a>
+
+    <audio loop id="background-music" >
         <source src="https://archive.org/download/wiiumusic/03%20-%20System%20Music%20-%20First%20Time%20Setup%20%28TV%29.mp3" type="audio/mp3">
     </audio>
-    <a href="https://freakybob.site/Socials" id="Socials-button">
-        <img src="images/Freaky_bob_socials.png" alt="Socials logo">
+    <a href="https://freakybob.site/Socials" id="bluesky-button">
+        <img src="images/Freaky_bob_socials.png" alt="Bluesky logo">
     </a>
-</div>
-</div>
+
     <button id="mute-button" style="display:none;">Mute Music</button>
 <select id="language-selector">
     <option value="en" selected>English</option>
@@ -86,6 +87,7 @@
 </body>
 </html>
 <!--I love boys <3 -->
+
 
 
 
