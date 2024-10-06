@@ -29,7 +29,7 @@ h1 {
 }
 
 #home-button-container button {
-    background-color: #7ebeca;
+    background-color: #27494f;
     border: none;
     color: #fbf317fc;
     margin: 0 15px;
@@ -40,10 +40,11 @@ h1 {
 }
 
 #home-button-container button:hover {
-    color: #5d044d;
-    background-color: #7ebeca;
+    color: #cce10b;
+    background-color: #60036c;
     transform: scale(1.1);
     transition: all 0.9s ease;
+    box-shadow: 0 0 10px #cce10b, 0 0 20px #cce10b, 0 0 20px #cce10b;
 }
 
 #para1, #para2 {
@@ -105,4 +106,5 @@ h1 {
     }
     
 }
+
 
