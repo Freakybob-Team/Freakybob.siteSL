@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const translations = {
         en: {
             
-            mainTitle: 'Freakybob/info page!',
+            mainTitle: 'Freakybob',
             popupText: 'Welcome to freakybob.site! Hope you enjoy the website just as much as we do!',
             teamButton: 'See the team behind freakybob.site!',
             musicButton: 'Listen to Spongebob music!',
