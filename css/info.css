@@ -166,12 +166,45 @@ h4 {
    margin-left: 634px;
    background-color: #106d7e;
 }
+.point-button:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    background-color: #f3ef14;
+    color: #0f000f;
+}
+.DouKnow-button {
+    border-radius: 7px;
+    color: #a9e411;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+   margin-left: 579px;
+   background-color: #106d7e;
+}
+.DouKnow-button:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    background-color: #f3ef14;
+    color: #0f000f;
+}
 .description {
-    color: rgb(174, 184, 34);
+    color: rgb(209, 223, 15);
     background-color: rgb(8, 128, 128);
     border-radius: 9px;
     font-size: 20px;
 }
+.close-button {
+    background-color: #c107b5;
+    color: rgb(40, 187, 187);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 @media (max-width: 768px) {
     .content-wrapper {
         flex-direction: column;
@@ -278,10 +311,16 @@ h4 {
 }
 .point-button {
     background-color: #106d7e;
-    margin-left: 60px;
+    margin-left: 30px;
+    border: #dbde06;
+    border-radius: 7px;
+}
+.DouKnow-button {
+    margin-top:20px;
+    background-color: #106d7e;
+    margin-left: -1px;
     border: #dbde06;
     border-radius: 7px;
 }
 } 
-/* Why the fuck is it not working */
-/* fuck you wish */
+/* :3 */
