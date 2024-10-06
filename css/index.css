@@ -27,20 +27,23 @@ body {
     position: relative;
     color: white;
 }
-
-h1 {
+#main-title {
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: center;
     color: rgb(218, 203, 3);
     font-size: 42px;
-    margin-top: -70px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-
+    margin-top: 20px;
+    
 }
 
-h2 {
+
+
+
+#marquee-text {
     color: yellow;
+    margin-top: -70px;
+    font-size: large;
 }
-
 .popup {
     position: fixed;
     top: 0;
@@ -99,42 +102,10 @@ button:hover {
     background-color: rgb(218, 203, 3);
     transform: translateY(-3px) scale(1.05);
 }
-#info-button {
-margin-top: 12px;
-    padding: 15px 25px;
-    font-size: 18px;
-    cursor: pointer;
-    background-color: rgb(172, 147, 5);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-    max-width: 220px;
-    width: 100%;
-}
-#info-button:hover {
-    background-color: rgb(218, 203, 3);
-    transform: translateY(-3px) scale(1.05);
-}
-#gallery-button {
-    margin-top: 12px;
-    padding: 15px 25px;
-    font-size: 18px;
-    cursor: pointer;
-    background-color: rgb(172, 147, 5);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-    max-width: 220px;
-    width: 100%;
-}
-#gallery-button:hover {
-    background-color: rgb(218, 203, 3);
-    transform: translateY(-3px) scale(1.05);
-}
+
+
+
+
 #music-button {
     margin-top: 12px;
     padding: 15px 25px;
@@ -185,7 +156,7 @@ margin-top: 12px;
     max-width: 220px;
     width: 100%;
 }
-#scratch-button:hover {
+#activities-button:hover {
     background-color: rgb(218, 203, 3);
     transform: translateY(-3px) scale(1.05);
 }
@@ -202,40 +173,28 @@ margin-top: 12px;
     z-index: 1001;
 }
 
-#Social-button {
+
+#bluesky-button {
     position: fixed;
     z-index: 1001;
     display: none; /* imagine being hidden LMAOO */
 }
 
-
-
-#Social-button {
-    margin-top: 660px;
-    margin-left: -50px;
+#bluesky-button {
+    margin-top: -590px;
+    right: 1430px;
 }
 
-#github-button img,
-#Social-button img {
-    width: 40px;
-    height: 40px;
-}
-
-#Social-button img:hover {
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-#discord-button img {
-    width: 80px;
+#bluesky-button img {
+    width: 90px;
     height: 60px;
 }
-#discord-button img:hover {
+
+#bluesky-button img:hover {
     transform: scale(1.1);
     transition: 0.7s;
 }
-
-#freakyblog-logo {
-    
+   
 #gpl-3 {
     text-align: center;
     padding: 15px;
@@ -285,12 +244,13 @@ font-size: 15px;
 top: 10px;
 left: 10px;
 }
-#bluesky-button img {
+
+#Socials-button img {
 width: 40px;
 height: 40px;
 }
 
-#Social-button img:hover {
+#Socials-button img:hover {
 transform: scale(1.1);
 transition: 0.7s;
 }
