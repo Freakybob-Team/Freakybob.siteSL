@@ -202,39 +202,26 @@ margin-top: 12px;
     z-index: 1001;
 }
 
-#github-button,
-#discord-button,
-#bluesky-button,
-#freakyblog-logo,
-#pikidiary-button {
+#Social-button {
     position: fixed;
     z-index: 1001;
     display: none; /* imagine being hidden LMAOO */
 }
 
-#github-button {
-   margin-top: 660px;
-margin-left: 190px;
-}
 
-#discord-button {
-    margin-top: 660px;
-    margin-left: 80px
-}
 
-#bluesky-button {
+#Social-button {
     margin-top: 660px;
     margin-left: -50px;
 }
 
 #github-button img,
-#bluesky-button img {
+#Social-button img {
     width: 40px;
     height: 40px;
 }
 
-#github-button img:hover,
-#bluesky-button img:hover {
+#Social-button img:hover {
     transform: scale(1.1);
     transition: 0.7s;
 }
@@ -248,22 +235,6 @@ margin-left: 190px;
 }
 
 #freakyblog-logo {
-    position: fixed;
-    margin-top: 620px;
-    margin-left: -210px;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-#freakyblog-logo img {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-}
-    #freakyblog-logo:hover {
-        transform: scale(1.1);
-        transition: 0.7s;
-    }
     
 #gpl-3 {
     text-align: center;
@@ -288,25 +259,9 @@ z-index: 1001;
 transform: scale(1.1);
 transition: 0.7s;
 }
-#pikidiary-button img {
-    width: 70px;
-    height: 40px;
-    margin-top: -100px;
-}
 
-#pikidiary-button-container {
-    position: fixed;
-    margin-top: 670px;
-    margin-left: -330px;
-}
-#pikidiary-button-container:hover {
-    transform: scale(1.1);
-    transition: 0.7s;
-}
 @media screen and (max-width: 600px) {
-#freakyblog-logo {
-margin-top: -580px;
-}
+
 #marquee-text {
 font-size: 15px;
 }
@@ -325,45 +280,21 @@ font-size: 15px;
 #scratch-button {
 font-size: 15px;
 }
-#github-button {
-margin-top: -469px;
-left: 10px;
-}
-#discord-button {
-margin-top: -320px;
-left: -10px;
-}
-#bluesky-button {
+
+#Social-button {
 top: 10px;
 left: 10px;
 }
-#github-button img,
 #bluesky-button img {
 width: 40px;
 height: 40px;
 }
-#github-button img:hover,
-#bluesky-button img:hover {
+
+#Social-button img:hover {
 transform: scale(1.1);
 transition: 0.7s;
 }
-#discord-button img {
-width: 80px;
-height: 60px;
-}
-#discord-button img:hover {
-transform: scale(1.1);
-transition: 0.7s;
-}
-#freakyblog-logo img {
-margin-top: 59px;
-width: 40px;
-height: 40px;
-}
-#freakyblog-logo:hover {
-transform: scale(1.1);
-transition: 1.3s;
-}
+
 #language-selector {
 margin-top: 580px;
 right: 110px;
