@@ -1,7 +1,14 @@
+# freakybob
 Prefer Codeberg or Disroot? We have that too. 
 https://codeberg.org/Freakybob/Freakybob.site 
 https://git.disroot.org/Freakybob/Freakybob.site
 <img src="images/fbanner.png">
+<br>
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
+<br>
 Freakybob.site is a website made by 5quirrel, wish13yt, #2 Twitter Hater and other contributors! 
 Welcome to the offical Github of Freakybob.site where the website was first birthed!
 
