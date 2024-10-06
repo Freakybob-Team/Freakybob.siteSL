@@ -240,17 +240,17 @@ font-size: 15px;
 font-size: 15px;
 }
 
-#Social-button {
+#socials-button {
 top: 10px;
 left: 10px;
 }
 
-#Socials-button img {
+#socials-button img {
 width: 40px;
 height: 40px;
 }
 
-#Socials-button img:hover {
+#socials-button img:hover {
 transform: scale(1.1);
 transition: 0.7s;
 }
