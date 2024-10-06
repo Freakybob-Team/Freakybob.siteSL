@@ -14,9 +14,6 @@ Welcome to the offical Github of Freakybob.site where the website was first birt
 
 ⚠️THE WEBSITE IS STILL BEING UPDATED AS WE SPEAK!⚠️
 
-This was made with these languages :3
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,)](https://skillicons.dev)
 
 To see credit for the icons we use, please go to https://github.com/Freakybob-Team/freaky-icons.
 
