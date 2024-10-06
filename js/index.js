@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 es: {
     mainTitle: 'Freakybob',
-    marqueeText: '¡Este sitio web realmente me pone a prueba! | ¡Echa un vistazo a la nueva página Freakyblog!',
+    
     popupText: '¡Bienvenido a freakybob.site! ¡Esperamos que disfrutes el sitio web tanto como nosotros!',
     infoButton: '¡Visita la página de información!',
     teamButton: '¡Conoce al equipo detrás de freakybob.site!',
@@ -60,7 +60,7 @@ es: {
 },
 fr : {
     mainTitle: 'Freakybob',
-    marqueeText: 'Le site Internet fait-il vraiment le maitre :3 | Regardez la nouvelle page de Freakyblog!',
+   
     popupText: 'Bienvenue sur freakybob.site! Nous sommes impatients de vous offrir le site Internet comme nous le faisons!',
     infoButton: 'Regardez la page d\'information!',
     teamButton: 'Venez voir le team derrière freakybob.site!',
@@ -73,7 +73,7 @@ fr : {
 },
 de: {
     mainTitle: 'Freakybob',
-    marqueeText: 'Diese Website macht mich echt fertig! | Schau dir die neue Freakyblog-Seite an!',
+  
     popupText: 'Willkommen auf freakybob.site! Wir hoffen, dass dir die Website genauso gefällt wie uns!',
     infoButton: 'Schau dir die Infoseite an!',
     teamButton: 'Sieh dir das Team hinter freakybob.site an!',
@@ -86,7 +86,7 @@ de: {
 }
 ,jp : {
     mainTitle: 'Freakybob',
-    marqueeText: 'このウェブサイトは本当に機能するように作りました | 新しいFreakyblogのページをチェックしてください',
+  
     popupText: 'Freakybob.siteへようこそ! このウェブサイトを楽しんでいただきありがとうございます!',
     infoButton: 'Freakyblogのページを確認してください',
     teamButton: 'Freakybobのページに行ってみてください',
@@ -99,7 +99,7 @@ de: {
 }
 ,ko : {
     mainTitle: 'Freakybob',
-    marqueeText: '웹사이트이 만족둔하고 한다! | 더의 텍스트를 확인해 보세요!',
+    
     popupText: '프레이티브박스가 freakybob.site에 접근하고 어떤을!',
     infoButton: '프레이티브박스를 확인해 보세요!',
     teamButton: '프레이티브박스를 확인해 보세요!',
@@ -112,7 +112,7 @@ de: {
 }
 ,pt : {
     mainTitle: 'Freakybob',
-    marqueeText: 'O site está a fazer-me realmente tweaking :3 | Veja a nova página do Freakyblog!',
+   
     popupText: 'Bem-vindo ao freakybob.site! Esperamos que goste do site como eu fizemos!',
     infoButton: 'Veja a página de informação!',
     teamButton: 'Veja o time de traço do freakybob.site!',
@@ -125,7 +125,7 @@ de: {
 }
 ,pl : {
     mainTitle: 'Freakybob',
-    marqueeText: 'To strona jest robiać mi prawdopodobnie zmiany :3 | Sprawdź nową stronę Freakyblog!',
+   
     popupText: 'Witaj na freakybob.site! Zapewniamy, że zobaczyłes strone jak ja zrobiłes!',
     infoButton: 'Sprawdź stronę informacyjną!',
     teamButton: 'Sprawdź drapień przeciw freakybob.site!',
@@ -137,7 +137,7 @@ de: {
 }
 ,tr : {
     mainTitle: 'Freakybob',
-    marqueeText: 'Bu site size hızlıca çıkaracak :3 | Lütfen yeni Freakyblog sayfasını deneyin!',
+   
     popupText: 'Freakybob.site\'e hos geldiniz! Burada site size hızlıca çıkaracaktır!',
     infoButton: 'Freakyblog sayfasını deneyin!',
     teamButton: 'Freakybob sayfasını deneyin!',
@@ -150,7 +150,7 @@ de: {
 }
 ,th : {
     mainTitle: 'Freakybob',
-    marqueeText: 'Website จะใช้งานตอนนี้แล้ว :3 | ดูหน้าต่างใหม่ของ Freakyblog!',
+   
     popupText: 'ยินดีต้อนรับสู่ freakybob.site! ระบบของคุณจะใช้งานตอนนี้แล้ว!',
     infoButton: 'ดูหน้าต่างข้อมูล!',
     teamButton: 'ดูทีมของคุณที่หลังจาก freakybob.site!',
@@ -163,7 +163,7 @@ de: {
 }
 ,vi : {
     mainTitle: 'Freakybob',
-    marqueeText: 'Website đang được đầu tư đã :3 | Xem trang mới nhất của Freakyblog!',
+   
     popupText: 'Chào mừng đến freakybob.site! Chúng tôi mong muốn được ủng hộ trang web này!',
     infoButton: 'Xem trang thông tin!',
     teamButton: 'Xem đội ngũ trước freakybob.site!',
@@ -176,7 +176,7 @@ de: {
 }
 ,uk : {
     mainTitle: 'Freakybob',
-    marqueeText: 'Віддалено :3 | Перегляньте нову сторінку Freakyblog!',
+   
     popupText: 'Добро пожаловать на freakybob.site! Мы рады, что вам понравилось сайт как мы это делали!',
     infoButton: 'Перегляньте сторінку інформації!',
     teamButton: 'Перегляньте команду против freakybob.site!',
@@ -189,7 +189,7 @@ de: {
 }
 ,zh : {
     mainTitle: 'Freakybob',
-    marqueeText: '这个站点已经 :3 | 看看新的 Freakyblog 页面!',
+   
     popupText: '欢迎来到 freakybob.site! 我们很高兴为您服务!',
     infoButton: '看看信息页面!',
     teamButton: '看看我们的队伍后面的 freakybob.site!',
@@ -202,7 +202,7 @@ de: {
 }
 ,ru : {
     mainTitle: 'Freakybob',
-    marqueeText: 'Это сайт сделал-мы вполне нравится :3 | Посмотрите новую страницу Freakyblog!',
+   
     popupText: 'Добро пожаловать на freakybob.site! Мы рады, что вам понравилось сайт как мы это делали!',
     infoButton: 'Посмотрите страницу информации!',
     teamButton: 'Посмотрите команду против freakybob.site!',
@@ -215,7 +215,7 @@ de: {
 }
 ,it : {
     mainTitle: 'Freakybob',
-    marqueeText: 'Il sito è facendo di molto bello :3 | Clicca sul nuovo sito di Freakyblog!',
+    
     popupText: 'Benvenuto su freakybob.site! Abbiamo apprezzato il sito come lo facciamo!',
     infoButton: 'Clicca sul sito di informazione!',
     teamButton: 'Clicca sul team di freakybob.site!',
@@ -228,7 +228,7 @@ de: {
 }
 ,lc : {
 mainTitle: 'Feakybob',
-    marqueeText: 'TEH WEBSIET IZ MAKIN ME GENUINELY TWEAK :3 | CHECK OUT TEH NEW FREAKYBLOG PAEG BY CLICKIN TEH SPONGEBOB BELOW TEH "FREAKYBOB"! | UP',
+    
     popupText: 'Welcome to freakybob.site! Hope you enjoy the website just as much as we do!',
     infoButton: 'CHECK OUT TEH INFO PAEG!',
     teamButton: 'See the team behind freakybob.site!',
@@ -241,7 +241,6 @@ mainTitle: 'Feakybob',
 }
 ,gr : {
     mainTitle: 'Gregreg',
-    marqueeText: 'The gregsite is greging me greguinely greg :3 | Greg out the geg Gregregblog grah by greging the gregbob greglow the "Grggreg"!',
     popupText: 'Greg greg greg to gregreg! Greg you gregy the gregsite grst as greg greg as we do!',
     teamButton: 'The gregs of gregybob.site',
     
