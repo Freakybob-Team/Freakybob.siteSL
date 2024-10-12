@@ -34,6 +34,13 @@ h1 {
     margin-top: 20px; 
     margin-bottom: 20px;
 }
+#para5 {
+    margin-left: -510px;
+    color: rgb(229, 236, 13);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .button-container {
     text-align: center;
     margin-top: 20px;
@@ -85,6 +92,9 @@ margin-right: 500px;
 #draw {
 margin-right: 500px;
 }
+#img-gallery {
+    margin-right: 500px;
+}
 @media screen and (max-width: 600px) {
 #countdown {
 margin-right: 0px;
@@ -97,6 +107,10 @@ margin-right: 0px;
 }
 #para2 {
 margin-left: 0px;
+}
+
+#img-gallery {
+    margin-right: 0px;
 }
 .button-container button {
 margin-top: 12px;
