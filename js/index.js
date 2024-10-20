@@ -1,7 +1,6 @@
 const popup = document.getElementById('sound-popup');
 const thanksButton = document.getElementById('thanks-button');
 const thanksSound = document.getElementById('thanks-sound');
-const backgroundMusic = document.getElementById('background-music');
 const muteButton = document.getElementById('mute-button');
 const githubButton = document.getElementById('github-button');
 const discordButton = document.getElementById('discord-button');
@@ -21,21 +20,8 @@ thanksButton.addEventListener('click', () => {
         muteButton.style.display = 'block';
         pikidiaryButton.style.display = 'block';
         freakyblog.style.display = 'block';
-        backgroundMusic.play();
     }, 2000);
 });
-
-function toggleMusic() {
-    if (backgroundMusic.paused) {
-        backgroundMusic.play();
-        muteButton.textContent = 'Mute Music';
-    } else {
-        backgroundMusic.pause();
-        muteButton.textContent = 'Unmute Music';
-    }
-}
-
-muteButton.addEventListener('click', toggleMusic);
 
 window.addEventListener('load', () => {
     setTimeout(() => popup.style.display = 'flex', 500);
@@ -293,16 +279,3 @@ if (translations.hasOwnProperty(lang)) {
 
     updateLanguage('en');
 });
-document.addEventListener("DOMContentLoaded", function() {
-    var myAudio = document.getElementById('background-music');
-
-if (myAudio.duration > 0 && !myAudio.paused) {
-
-element = document.getElementById('sound-popup')
-element.delete();
-
-} else {
-
-//Not playing...maybe paused, stopped or never played.
-
-}})
