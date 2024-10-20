@@ -192,7 +192,7 @@ margin-top: 12px;
 #mute-button {
     position: fixed;
     margin-top:-640px;
-    margin-right: -1301px;
+    margin-left: 88%;
     padding: 5px 10px;
     background-color: rgb(1, 170, 128);
     border: none;
@@ -215,36 +215,43 @@ margin-top: 12px;
 #github-button {
    margin-top: 660px;
 margin-left: 190px;
+transition: .3s;
+transition-timing-function: ease-in-out;
 }
 
 #discord-button {
     margin-top: 660px;
-    margin-left: 80px
+    margin-left: 80px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
 }
 
 #bluesky-button {
     margin-top: 660px;
     margin-left: -50px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
 }
 
 #github-button img,
 #bluesky-button img {
     width: 40px;
     height: 40px;
+    transition: .3s;
 }
 
 #github-button img:hover,
 #bluesky-button img:hover {
     transform: scale(1.1);
-    transition: 0.7s;
 }
 #discord-button img {
     width: 80px;
     height: 60px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
 }
 #discord-button img:hover {
     transform: scale(1.1);
-    transition: 0.7s;
 }
 
 #freakyblog-logo {
@@ -254,6 +261,8 @@ margin-left: 190px;
     border: none;
     background: none;
     cursor: pointer;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
 }
 #freakyblog-logo img {
     position: fixed;
@@ -262,7 +271,6 @@ margin-left: 190px;
 }
     #freakyblog-logo:hover {
         transform: scale(1.1);
-        transition: 0.7s;
     }
     
 #gpl-3 {
@@ -283,21 +291,25 @@ border-radius: 4px;
 cursor: pointer;
 font-size: 13px;
 z-index: 1001;
+transition: .4s;
+transition-timing-function: ease-in-out;
 }
 #language-selector:hover {
 transform: scale(1.1);
-transition: 0.7s;
 }
 #pikidiary-button img {
     width: 70px;
     height: 40px;
     margin-top: -100px;
+    transition: .3s;
 }
 
 #pikidiary-button-container {
     position: fixed;
     margin-top: 670px;
     margin-left: -330px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
 }
 #pikidiary-button-container:hover {
     transform: scale(1.1);
@@ -341,6 +353,7 @@ left: 10px;
 #bluesky-button img {
 width: 40px;
 height: 40px;
+transition: .3s;
 }
 #github-button img:hover,
 #bluesky-button img:hover {
@@ -362,7 +375,6 @@ height: 40px;
 }
 #freakyblog-logo:hover {
 transform: scale(1.1);
-transition: 1.3s;
 }
 #language-selector {
 margin-top: 580px;
@@ -375,4 +387,18 @@ cursor: pointer;
 font-size: 13px;
 z-index: 1001;
 }
+}
+
+#music-credits {
+    margin-left: 80px;
+}
+
+#a-music-credits {
+    transition-property: color;
+    transition-duration: .7s;
+    transition-timing-function: ease-in-out;
+}
+
+#a-music-credits:hover {
+    color: orange;
 }
