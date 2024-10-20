@@ -1,11 +1,36 @@
 body {
     background-color: rgb(4, 109, 74);
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+body {
+    flex: 1;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(13, 192, 192);
+    padding: 20px;
+    background-color: rgb(6, 135, 92);
+    margin: 0;
+    border-bottom: 4px solid rgb(0, 86, 58);
+    font-size: 2em;
+}
+
 h1 {
     text-align: center;
     color: rgb(13, 192, 192);
     font-size: 40px;
 }
+
 #para1 {
     text-align: center;
     color: rgb(229, 236, 13);
@@ -13,6 +38,7 @@ h1 {
     margin-top: 20px; 
     margin-bottom: 20px;
 }
+
 #para2 {
     margin-left: -510px;
     color: rgb(229, 236, 13);
@@ -20,6 +46,7 @@ h1 {
     margin-top: 20px; 
     margin-bottom: 20px;
 }
+
 #para3 {
     margin-left: -510px;
     color: rgb(229, 236, 13);
@@ -27,6 +54,7 @@ h1 {
     margin-top: 20px; 
     margin-bottom: 20px;
 }
+
 #para4 {
     margin-left: -510px;
     color: rgb(229, 236, 13);
@@ -34,10 +62,12 @@ h1 {
     margin-top: 20px; 
     margin-bottom: 20px;
 }
+
 .button-container {
     text-align: center;
     margin-top: 20px;
 }
+
 .button-container button {
     background: none;
     border: 2px solid #d1219c;
@@ -46,18 +76,21 @@ h1 {
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s, transform 0.6s ease;
     margin: 5px;
 }
+
 .button-container button:hover {
     background-color: #d1219c;
     color: #fff;
     transform: scale(1.1);
 }
+
 .freakybob-container {
     text-align: center;
     margin-top: 20px;
 }
+
 .freakybob-container button {
     background: none;
     border: 2px solid #d1219c;
@@ -66,10 +99,10 @@ h1 {
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: color 1.3s, background-color 1.3s;
+    transition: color 1.3s, background-color 1.3s, transform 0.6s ease;
     margin: 5px;
-    
 }
+
 .freakybob-container button:hover {
     background-color: #118eee;
     color: #d9e011;
@@ -77,36 +110,50 @@ h1 {
 }
 
 #countdown {
-margin-right: 500px;
-}
-#downloads {
-margin-right: 500px;
-}
-#draw {
-margin-right: 500px;
-}
-@media screen and (max-width: 600px) {
-#countdown {
-margin-right: 0px;
-}
-#downloads {
-margin-right: 0px;
-}
-    #draw {
-margin-right: 0px;
-}
-#para2 {
-margin-left: 0px;
-}
-.button-container button {
-margin-top: 12px;
-padding: 15px 25px;
-font-size: 16px;
-}
-.freakybob-container button {
-margin-top: 12px;
-padding: 15px 25px;
-font-size: 16px;
+    margin-right: 500px;
 }
 
+#downloads {
+    margin-right: 500px;
+}
+
+#draw {
+    margin-right: 500px;
+}
+
+#img-gallery {
+    margin-right: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    #countdown {
+        margin-right: 0px;
+    }
+
+    #downloads {
+        margin-right: 0px;
+    }
+
+    #draw {
+        margin-right: 0px;
+    }
+
+    #para2 {
+        margin-left: 0px;
+    }
+
+    #img-gallery {
+        margin-right: 0px;
+    }
+
+    .button-container button {
+        margin-top: 12px;
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    .freakybob-container button {
+        margin-top: 12px;
+        padding: 15px 25px;
+        font-size: 16px;
+    }
 }
