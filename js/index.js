@@ -22,6 +22,19 @@ thanksButton.addEventListener('click', () => {
         freakyblog.style.display = 'block';
     }, 2000);
 });
+function toggleMusic() {
+    if (backgroundMusic.paused) {
+        backgroundMusic.play();
+        muteButton.textContent = 'Mute Music';
+    } else {
+        backgroundMusic.pause();
+        muteButton.textContent = 'Unmute Music';
+    }
+}
+muteButton.addEventListener('click', toggleMusic);
+window.addEventListener('load', () => {
+    setTimeout(() => popup.style.display = 'flex', 500);
+});
 
 window.addEventListener('load', () => {
     setTimeout(() => popup.style.display = 'flex', 500);
