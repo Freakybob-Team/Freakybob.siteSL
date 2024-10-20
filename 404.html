@@ -9,37 +9,15 @@
     <meta content="https://raw.githubusercontent.com/Freakybob-Team/Freakybob.site/main/images/Freaky_Bob_404.png" property="og:image" />
     <meta content="#006b79" data-react-helmet="true" name="theme-color" />
     <title>404</title>
-    <link rel="icon" type="image/png" href="https://freakybob.site/images/Freaky_Bob_404.png">
-    <link rel="stylesheet" href="https://freakybob.site/css/404.css">
+    <link rel="icon" type="image/png" href="/images/Freaky_Bob_404.png">
+    <link rel="stylesheet" href="/css/404.css">
 </head>
-<body onload="getRandomImage()">
+<body>
 <h1>Oops! A 404 Page!</h1>
     <p>How the fuck did you get here?</p>
-    <span id="result" align="center"> </span>
     <a href="https://freakybob.site"><button>Go to main page</button></a>
     <a href="https://github.com/Freakybob-Team/Freakybob.site/issues/new"><button>Make an issue</button></a>
-    <audio autoplay loop><source src="https://freakybob.site/audio/EEK!.ogg" type="audio/ogg"></audio>
-    <script>
-        function getRandomImage() {
-   
-    var randomImage = new Array();
-   
-    randomImage[0] = "https://media.tenor.com/2h9xhpYLKooAAAAi/furro.gif";
-    randomImage[1] = "https://media1.tenor.com/m/J3sih0hnKLwAAAAC/borzoi-siren.gif";
-    randomImage[2] = "https://media1.tenor.com/m/f911hugXZHAAAAAC/scrunchy-dog-awkward-smile.gif";
-    randomImage[3] = "https://media1.tenor.com/m/rl5HSMVQcbcAAAAd/mr-penis-mister-penis.gif";
-    randomImage[4] = "https://media1.tenor.com/m/1CmXqnEBAC8AAAAd/freak-freaky.gif";
-    randomImage[5] = "https://media1.tenor.com/m/92yhm9XyDlwAAAAC/the-goon-dodgeball.gif";
-    randomImage[6] = "https://f.feridinha.com/wK8sV.gif";
-    randomImage[6] = "https://f.feridinha.com/LqRkS.jpg";
-    randomImage[7] = "https://media.tenor.com/6AE1EbxTuWsAAAAM/ooo-you-like-boys.gif";
-    randomImage[8] = "https://media.tenor.com/6NRM5QqZja8AAAAM/boykisser.gif";
-
-
-var number = Math.floor(Math.random()*randomImage.length); 
- 
- return document.getElementById('result').innerHTML = '<img src="' + randomImage[number]+'" />'; 
-} 
-    </script>
+    <img class="gif" src="https://media.tenor.com/2h9xhpYLKooAAAAi/furro.gif"    width="400" height="400">
+    <audio autoplay loop><source src="/audio/EEK!.ogg" type="audio/ogg"></audio>
 </body>
 </html>
