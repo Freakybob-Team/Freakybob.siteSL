@@ -29,10 +29,12 @@ body {
 }
 
 h1 {
+    position: sticky;
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: center;
     color: rgb(218, 203, 3);
     font-size: 42px;
-    margin-top: -70px;
+    margin-top: -20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 
 }
@@ -41,49 +43,9 @@ h2 {
     color: yellow;
 }
 
-.popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(6, 22, 51);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    opacity: 1;
-    transition: opacity 3s ease;
-}
-
-.popup.fade-out {
-    opacity: 0;
-}
-
-.popup-content {
-    background: rgb(4, 63, 140);
-    padding: 25px;
-    text-align: center;
-    border-radius: 12px;
-    max-width: 90%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    animation: fadeIn 0.9s ease;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
 button {
     margin-top: 12px;
-    padding: 10px 20px;
+    padding: 15px 25px;
     font-size: 18px;
     cursor: pointer;
     background-color: rgb(172, 147, 5);
@@ -101,6 +63,7 @@ button:hover {
 }
 #info-button {
 margin-top: 12px;
+    padding: 15px 25px;
     font-size: 18px;
     cursor: pointer;
     background-color: rgb(172, 147, 5);
@@ -118,6 +81,7 @@ margin-top: 12px;
 }
 #gallery-button {
     margin-top: 12px;
+    padding: 15px 25px;
     font-size: 18px;
     cursor: pointer;
     background-color: rgb(172, 147, 5);
@@ -135,6 +99,7 @@ margin-top: 12px;
 }
 #music-button {
     margin-top: 12px;
+    padding: 15px 25px;
     font-size: 18px;
     cursor: pointer;
     background-color: rgb(172, 147, 5);
@@ -150,8 +115,10 @@ margin-top: 12px;
     background-color: rgb(218, 203, 3);
     transform: translateY(-3px) scale(1.05);
 }
+
 #team-button {
     margin-top: 12px;
+    padding: 15px 25px;
     font-size: 18px;
     cursor: pointer;
     background-color: rgb(172, 147, 5);
@@ -169,6 +136,7 @@ margin-top: 12px;
 }
 #activities-button {
     margin-top: 12px;
+    padding: 15px 25px;
     font-size: 18px;
     cursor: pointer;
     background-color: rgb(172, 147, 5);
@@ -204,7 +172,6 @@ margin-top: 12px;
 #pikidiary-button {
     position: fixed;
     z-index: 1001;
-    display: none; /* imagine being hidden LMAOO */
 }
 
 #github-button {
@@ -274,26 +241,31 @@ transition-timing-function: ease-in-out;
 }
 a {
 text-decoration: none;
+color: wheat;
+}
+#socials {
+text-align: center;
+margin-top: -20px;
+}
+#socials:hover {
+transition: all 0.3s ease;
+transform: translateY(-3px) scale(1.05);
+}
+#music-credits {
+    text-align: center;
+    margin-top: 20px;
 }
 
-#pikidiary-button img {
-    width: 70px;
-    height: 40px;
-    margin-top: -100px;
-    transition: .3s;
-}
-
-#pikidiary-button-container {
-    position: fixed;
-    margin-top: 670px;
-    margin-left: -330px;
-    transition: .3s;
+#a-music-credits {
+    transition-property: color;
+    transition-duration: .7s;
     transition-timing-function: ease-in-out;
 }
-#pikidiary-button-container:hover {
-    transform: scale(1.1);
-    transition: 0.7s;
+
+#a-music-credits:hover {
+    color: orange;
 }
+
 @media screen and (max-width: 600px) {
 #freakyblog-logo {
 margin-top: -580px;
@@ -316,55 +288,5 @@ font-size: 15px;
 #scratch-button {
 font-size: 15px;
 }
-#github-button {
-margin-top: -469px;
-left: 10px;
-}
-#discord-button {
-margin-top: -320px;
-left: -10px;
-}
-#bluesky-button {
-top: 10px;
-left: 10px;
-}
-#github-button img,
-#bluesky-button img {
-width: 40px;
-height: 40px;
-transition: .3s;
-}
-#github-button img:hover,
-#bluesky-button img:hover {
-transform: scale(1.1);
-transition: 0.7s;
-}
-#discord-button img {
-width: 80px;
-height: 60px;
-}
-#discord-button img:hover {
-transform: scale(1.1);
-transition: 0.7s;
-}
-#freakyblog-logo img {
-margin-top: 59px;
-width: 40px;
-height: 40px;
-}
-#freakyblog-logo:hover {
-transform: scale(1.1);
-}
-#music-credits {
-    margin-left: 80px;
 }
 
-#a-music-credits {
-    transition-property: color;
-    transition-duration: .7s;
-    transition-timing-function: ease-in-out;
-}
-
-#a-music-credits:hover {
-    color: orange;
-}
