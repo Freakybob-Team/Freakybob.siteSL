@@ -40,29 +40,35 @@ h1 {
 }
 
 #para2 {
-    margin-left: -510px;
     color: rgb(229, 236, 13);
     font-size: 16px;
     margin-top: 20px; 
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 #para3 {
-    margin-left: -510px;
     color: rgb(229, 236, 13);
     font-size: 16px;
     margin-top: 20px; 
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 #para4 {
-    margin-left: -510px;
     color: rgb(229, 236, 13);
     font-size: 16px;
     margin-top: 20px; 
     margin-bottom: 20px;
 }
 
+#para5 {
+    color: rgb(229, 236, 13);
+    font-size: 16px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-left: -13px;
+}
 .button-container {
     text-align: center;
     margin-top: 20px;
@@ -77,7 +83,10 @@ h1 {
     padding: 10px 20px;
     border-radius: 5px;
     transition: color 0.3s, background-color 0.3s, transform 0.6s ease;
-    margin: 5px;
+    margin-left: 26%;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .button-container button:hover {
@@ -100,11 +109,10 @@ h1 {
     padding: 10px 20px;
     border-radius: 5px;
     transition: color 1.3s, background-color 1.3s, transform 0.6s ease;
-    margin: 5px;
 }
 
 .freakybob-container button:hover {
-    background-color: #118eee;
+    background-color: #d1219c;
     color: #d9e011;
     transform: scale(1.1);
 }
@@ -118,12 +126,22 @@ h1 {
 }
 
 #draw {
-    margin-right: 500px;
+    margin-right: 510px;
 }
 
 #img-gallery {
     margin-right: 500px;
 }
+
+#chat {
+    margin-right: 516px;
+}
+
+#chat:hover {
+    background-color: #d1219c;
+    color: #fff;
+    transform: scale(1.1);
+} 
 
 @media screen and (max-width: 600px) {
     #countdown {
