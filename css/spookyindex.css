@@ -244,11 +244,11 @@ text-decoration: none;
 color: wheat;
 }
 #socials {
+transition: all 0.3s ease;
 text-align: center;
 margin-top: -20px;
 }
 #socials:hover {
-transition: all 0.3s ease;
 transform: translateY(-3px) scale(1.05);
 }
 #music-credits {
