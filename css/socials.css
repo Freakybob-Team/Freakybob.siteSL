@@ -37,14 +37,14 @@ h1 {
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: all 0.9s ease;
 }
 
 #home-button-container button:hover {
     color: #cce10b;
     background-color: #60036c;
-    transform: scale(1.1);
-    transition: all 0.9s ease;
     box-shadow: 0 0 10px #cce10b, 0 0 20px #cce10b, 0 0 20px #cce10b;
+    transform: scale(1.1);
 }
 
 #para1, #para2 {
