@@ -31,7 +31,7 @@ footer {
     margin-top: auto;
 }
 
-button {
+#issue {
     background-color: #ffbb00;
     border: none;
     border-radius: 5px;
@@ -40,9 +40,35 @@ button {
     font-size: 1em;
     cursor: pointer;
     margin-top: 20px;
+    width: 150px;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all .4s ease;
 }
 
-button:hover {
+#issue:hover {
+    background-color: #4bff3b;
+    transform: scale(1.10);
+}
+
+#index {
+    background-color: #ffbb00;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 150px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .4s ease;
+}
+
+#index:hover {
     background-color: #4bff3b;
     transform: scale(1.10);
 }
