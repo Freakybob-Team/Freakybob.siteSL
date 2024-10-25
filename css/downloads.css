@@ -42,3 +42,29 @@ h3 {
     font-size: 20px;
     text-shadow: 10px 10px 10px rgba(248, 232, 3, 0.3);
 }
+
+@media (max-width: 770px) {
+    button {
+        margin-left: 19.5%;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-left: 0%;
+    }
+
+    h3 {
+        font-size: 35px;
+        margin-left: 1%;
+    }
+
+    #para1 {
+        font-size: 30px;
+        margin-left: 0%;
+    }
+
+    #para2 {
+        font-size: 30px;
+        margin-left: 0%;
+    }
+  }
