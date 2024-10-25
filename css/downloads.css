@@ -2,7 +2,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     background-color: rgb(1, 83, 121);
 }
-    button {
+    a {
     padding: 15px 25px;
     font-size: 20px;
     cursor: pointer;
@@ -13,9 +13,10 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
     max-width: 220px;
-    width: 100%;
-    margin-left: 44%;
-    margin-right: 44%;
+    width: 30%;
+    margin-left: 46%;
+    margin-right: 46%;
+    text-decoration: none;
 }
 h1 {
     text-align: center;
@@ -44,8 +45,9 @@ h3 {
 }
 
 @media (max-width: 770px) {
-    button {
-        margin-left: 19.5%;
+    a {
+        margin-left: 31.5%;
+        margin-right: 31.5%;
     }
 
     h1 {
@@ -59,12 +61,12 @@ h3 {
     }
 
     #para1 {
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 0%;
     }
 
     #para2 {
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 0%;
     }
   }
