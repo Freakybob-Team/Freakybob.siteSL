@@ -1,19 +1,9 @@
 function showInfo(name) {
     const toggleDescriptions = {
-        'Squirrel': 'Squirrel bought the domain and does most of all the coding! Silly boykisser :3  ',
-        'Wish': 'Wish is a main developer for the website and made it so the music gallery can live on!',
-        'Hater': '#2 Twitter Hater helped with giving all sorts of spongebob images!',
-        'mpax':  'Mpax helps with the 3DS and IE6 versions! He also makes little tweaks to improve the site.',
-        'names': 'Names helps with the Freakyblog, and also improves the sites!',
-        'Nomaakip': 'Nomaakip helps fix the site and helped desiging the lb website!',
+        'sspruce': "Is apart of the Freakybob-team's graphics team (Is the only one 😭) He's really good and can cook for whatever he needs to make :fire:",
     };
     const images = {
-        'Squirrel': 'images/pfps/Boykisser Squirrel.png',
-        'Wish': 'images/pfps/wish.png',
-        'Hater': 'images/pfps/twitterhater.webp',
-        'mpax':  'images/pfps/Mpax.png',
-        'names':  'images/pfps/names.png',
-        'Nomaakip': 'images/pfps/nomaakip2.png',
+        'sspruce': 'images/pfps/wish.png',
     };
     const descriptionDiv = document.getElementById('description');
     const personImage = document.getElementById('person-image');
