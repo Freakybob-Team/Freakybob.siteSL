@@ -15,11 +15,11 @@ function showInfo(name) {
         'names':  'images/pfps/names.png',
         'Nomaakip': 'images/pfps/nomaakip2.png',
     };
-    const descriptionDiv = document.getElementById('description');
-    const personImage = document.getElementById('person-image');
-    const image = document.getElementById('image');
-    if (personImage.style.display === 'block') {
-        descriptionDiv.innerText = '';
-        image.src = '';
-        personImage.style.display = 'none';
-    }
+            const descriptionDiv = document.getElementById('description');
+            const personImage = document.getElementById('person-image');
+            const image = document.getElementById('image');
+
+            descriptionDiv.innerText = descriptions[name] || 'Information not available.';
+            image.src = images[name] || '';
+            personImage.style.display = (name in images) ? 'block' : 'none';
+        }
