@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A place for Freakybob.">
+    <meta content="Freakybob" property="og:title" />
+    <meta content="The founders of Freakybob.site... How cool!" property="og:description" />
+    <meta content="https://freakybob.site/foundingpeople" property="og:url" />
+    <meta content="https://raw.githubusercontent.com/Freakybob-Team/Freakybob.site/main/images/Freaky_Bob_founding.png" property="og:image" />
+    <meta content="#006b79" data-react-helmet="true" name="theme-color" />
+    <link rel="icon" type="image/png" href="images/Freaky_Bob_founding.png">
+    <title>Team</title>
+    <link rel="stylesheet" href="css/dev.css">
+</head>
+<body>
+
+    <h1>These are the people who develop for freakybob.site!</h1>
+    <audio
+        src="audio/Carefree(chosic.com).mp3"
+        loop
+        autoplay>
+    </audio>
+    <div class="button-container">
+        <a href="https://freakybob.site">
+            <button>Go back to Main Website :3</button>
+        </a>
+        <a href="https://freakybob.site/team">
+            <button>Check out the other people in the team!</button>
+        </a>
+    </div>
+
+    <div class="contributors">
+        <button onclick="showInfo('Squirrel')">Squirrel</button>
+        <button onclick="showInfo('Wish')">Wish</button>
+        <button onclick="showInfo('Hater')">#2 Twitter Hater</button>
+        <button onclick="showInfo('mpax')">mpax235</button>
+        <button onclick="showInfo('names')">Names</button>
+        <button onclick="showInfo('Nomaakip')">Nomaakip</button>
+    </div>
+    <div id="description" class="description"></div>
+
+    <div class="image-container" id="person-image" style="display: none;">
+        <img id="image" alt="Person Image">
+    </div>
+    <a href="https://freakybob.site/credpfp"><button id="pfpcred">For pfp credit, please click here!</button></a>
+    <script src="js/dev.js"></script>
+</body>
+</html>
