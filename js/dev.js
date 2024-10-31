@@ -1,5 +1,5 @@
 function showInfo(name) {
-    const toggleDescriptions = {
+    const Descriptions = {
         'Squirrel': 'Squirrel bought the domain and does most of all the coding! Silly boykisser :3  ',
         'Wish': 'Wish is a main developer for the website and made it so the music gallery can live on!',
         'Hater': '#2 Twitter Hater helped with giving all sorts of spongebob images!',
@@ -22,9 +22,4 @@ function showInfo(name) {
         descriptionDiv.innerText = '';
         image.src = '';
         personImage.style.display = 'none';
-    } else {
-        descriptionDiv.innerText = toggleDescriptions[name] || 'Information not available.';
-        image.src = images[name] || '';
-        personImage.style.display = 'block';
     }
- }
