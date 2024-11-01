@@ -9,6 +9,7 @@ html, body {
     display: flex;
     flex-direction: column;
     font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
 }
 
 body {
@@ -83,7 +84,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 5px;
     transition: color 0.3s, background-color 0.3s, transform 0.6s ease;
-    margin-left: 26%;
+    margin-left: 17%;
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -109,6 +110,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 5px;
     transition: color 1.3s, background-color 1.3s, transform 0.6s ease;
+    margin-left: 42px;
 }
 
 .freakybob-container button:hover {
@@ -118,23 +120,23 @@ h1 {
 }
 
 #countdown {
-    margin-right: 500px;
+    margin-right: 220px;
 }
 
 #downloads {
-    margin-right: 500px;
+    margin-right: 220px;
 }
 
 #draw {
-    margin-right: 510px;
+    margin-right: 220px;
 }
 
 #img-gallery {
-    margin-right: 500px;
+    margin-right: 220px;
 }
 
 #chat {
-    margin-right: 516px;
+    margin-right: 220px;
 }
 
 #chat:hover {
