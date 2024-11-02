@@ -1,4 +1,3 @@
-let currentName = null;
 let giancaClickCount = 0;
 let isGiancaReplaced = false;
 let kmClickCount = 0;
@@ -36,7 +35,7 @@ function showInfo(name) {
     descriptionDiv.innerText = descriptions[name] || 'Information not available.';
     image.src = images[name] || '';
     personImage.style.display = (name in images) ? 'block' : 'none';
-}
+
     if (name === 'Gianca') {
         image.onclick = handleGiancaImageClick; 
     } else if (name === 'KM') {
@@ -82,4 +81,5 @@ function handleNintendofan64ImageClick() {
     }
 }
 
+    
     
