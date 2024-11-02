@@ -32,16 +32,10 @@ function showInfo(name) {
     const descriptionDiv = document.getElementById('description');
     const personImage = document.getElementById('person-image');
     const image = document.getElementById('personImage');
-     if (currentName === name) {
-        descriptionDiv.innerText = '';
-        personImage.style.display = 'none';
-        currentName = null;
-    } else {
-        descriptionDiv.innerText = descriptions[name] || 'Information not available.';
-        image.src = images[name] || '';
-        personImage.style.display = 'block';
-        currentName = name; 
-    }
+
+    descriptionDiv.innerText = descriptions[name] || 'Information not available.';
+    image.src = images[name] || '';
+    personImage.style.display = (name in images) ? 'block' : 'none';
 }
     if (name === 'Gianca') {
         image.onclick = handleGiancaImageClick; 
