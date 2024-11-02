@@ -1,3 +1,4 @@
+let currentName = null;
 let giancaClickCount = 0;
 let isGiancaReplaced = false;
 let kmClickCount = 0;
@@ -31,11 +32,17 @@ function showInfo(name) {
     const descriptionDiv = document.getElementById('description');
     const personImage = document.getElementById('person-image');
     const image = document.getElementById('personImage');
-
-    descriptionDiv.innerText = descriptions[name] || 'Information not available.';
-    image.src = images[name] || '';
-    personImage.style.display = (name in images) ? 'block' : 'none';
-
+     if (currentName === name) {
+        descriptionDiv.innerText = '';
+        personImage.style.display = 'none';
+        currentName = null;
+    } else {
+        descriptionDiv.innerText = descriptions[name] || 'Information not available.';
+        image.src = images[name] || '';
+        personImage.style.display = 'block';
+        currentName = name; 
+    }
+}
     if (name === 'Gianca') {
         image.onclick = handleGiancaImageClick; 
     } else if (name === 'KM') {
