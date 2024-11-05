@@ -12,15 +12,17 @@ body::before {
 
 
   body {
-      background-image: url('.../images/chirstmas-1.png');
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      overflow-x: hidden;
+      min-height: 100vh;
+      overflow-y: hidden;
       color: white;
-      background-image: cover;
+      background-size: cover;
   background-position: center;
-   background-repeat: no-repeat;
-    background-attachment: fixed;
   font-family: 'Comic Sans MS', sans-serif;
   min-height: 100vh;
   min-width: 100vw;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
