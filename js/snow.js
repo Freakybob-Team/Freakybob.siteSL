@@ -1,4 +1,3 @@
-
 // thanks https://github.com/hyperstown/pure-snow.js/blob/master/pure-snow.js <3
 let snowflakesCount = 200; // Snowflake count, can be overwritten by attrs
 let baseCSS = ``;

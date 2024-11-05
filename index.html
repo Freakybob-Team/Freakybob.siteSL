@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Freakybob.site</title>
+    <title>Christmasbob.site</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A place for Freakybob.">
@@ -12,9 +12,10 @@
     <meta content="https://raw.githubusercontent.com/Freakybob-Team/Freakybob.site/main/Snapshots/Screenshot%202024-09-14%20214912.png" property="og:image" />
     <meta content="#006b79" data-react-helmet="true" name="theme-color" />
     <link rel="icon" type="image/x-icon" href="images/FreakybobDOTsite.png">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/freakymas.css">
 </head>
 <body>
+    <div id="snow" data-count="200"></div>
     <noscript>
         <link rel="stylesheet" href="css/js-disabled.css">
         <a>To continue to the website, please enable JavaScript.</a>
@@ -24,7 +25,7 @@
 
     <a href="https://freakybob-team.github.io/Freakybob.siteSL/info.html"><button id="info-button">Check out the info page!</button></a>
     <h2>
-        <marquee id="marquee-text"><a href="https://vote.org">REMINDER! GO VOTE IF YOU LIVE IN THE US!!! 💙  (click for more info)</a>| Hello from Squirrel in the middle of school :3</marquee>
+        <marquee id="marquee-text">HO HO HO !!!!!!! SNOW FELL IN MY TOWN SO THAT MEANS A CHRISTMAS UPDATE, ENJOY THIS :fire: | Christmas update lasts until December 30th so we can be prepared for the New Year event :3 | Mobile may be broken cause I'm too tired to fix, sowwy - Squirrel</marquee>
     </h2>
     <a href="https://freakybob.site/dev" ><button id="team-button">See the devs behind freakybob.site!</button></a>
     
@@ -34,24 +35,25 @@
     <a href="https://freakybob.site/activities" id="activities"><button id="activities-button">More activities!</button></a>
     
 <script src="js/index.js"></script>
+<div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/zc.php?d=9&id=1001&s=14' border='0' alt='Free Website Hit Counter'></a><br /><small></small></div>
+
 <div id="gplLicenseText">
     <footer><p id="gpl-3">No Rights Reserved. All pages are licensed under GPL-3.</p></footer>
-    <footer id="music-credits">Music by <a href="https://pixabay.com/users/sigmamusicart-36860929/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=252164">Mikhail Smusev</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=252164">Pixabay</a></footer>
+    <!--<footer id="music-credits">Music by <a href="https://pixabay.com/users/calvinclavier-16027823/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250834">Calvin Clavier</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250834">Pixabay</a></footer>-->
 </div>
-    <script>
-        const ks = new Audio('audio/movement-200697.mp3');
-ks.loop = true; 
-let userinteraction = 0;
-
-document.addEventListener('click', () => {
-    if (userinteraction) return;
-    userinteraction++;
-    ks.play();
-});
-</script>
+<div id="music-player">
+    <div id="current-song">Playing: A Holly Jolly Christmas.mp3</div>
+    <button id="prev-button">◁</button>
+    <button id="play-pause-button">▷II</button>
+    <button id="next-button">▷</button>
+</div>
+    <script src="js\christmasmusic.js"></script>
 </body>
 </html>
 <!--I love boys <3 -->
+
+
+
 
 
 
