@@ -274,8 +274,8 @@ font-size: 15px;
   height: 30px;
   width: 200px;
   font-size: 15px;
-  bottom: 590px;
-  right: 10px;
+  bottom: 5px;
+  right: 45px;
 }
 #music-player #current-song {
   font-size: 0.9em;
@@ -307,6 +307,19 @@ font-size: 15px;
 #gpl-3 {
 margin-top: -10px;
 }
-
-
+.snowflake {
+  margin-top: -80px;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(white, white);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
+  z-index: -1;
+  margin-left: -130px;
 }
+}
+
+
+
+
