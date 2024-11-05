@@ -12,13 +12,17 @@ body::before {
 
 
   body {
-      background-image: url("images/chirstmas-1.jpg");
+      background-image: url("images/chirstmas-1.png");
       overflow-x: hidden;
       min-height: 100vh;
       overflow-y: hidden;
       color: white;
-      background-size: cover;
+      background-image: cover;
   background-position: center;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   font-family: 'Comic Sans MS', sans-serif;
   min-height: 100vh;
   min-width: 100vw;
