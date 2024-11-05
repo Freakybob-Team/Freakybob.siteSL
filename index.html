@@ -37,23 +37,19 @@
 <script src="js/index.js"></script>
 <div id="gplLicenseText">
     <footer><p id="gpl-3">No Rights Reserved. All pages are licensed under GPL-3.</p></footer>
-    <footer id="music-credits">Music by <a href="https://pixabay.com/users/calvinclavier-16027823/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250834">Calvin Clavier</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250834">Pixabay</a></footer>
+    <!--<footer id="music-credits">Music by <a href="https://pixabay.com/users/calvinclavier-16027823/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250834">Calvin Clavier</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250834">Pixabay</a></footer>-->
 </div>
-
-    <script>
-        const ks = new Audio('https://ia600902.us.archive.org/6/items/tvtunes_8269/Burl%20Ives%20-%20A%20Holly%20Jolly%20Christmas.mp3');
-ks.loop = true; 
-let userinteraction = 0;
-
-document.addEventListener('click', () => {
-    if (userinteraction) return;
-    userinteraction++;
-    ks.play();
-});
-</script>
+<div id="music-player">
+    <div id="current-song">Playing: A Holly Jolly Christmas.mp3</div>
+    <button id="prev-button">⏮️</button>
+    <button id="play-pause-button">⏯️</button>
+    <button id="next-button">⏭️</button>
+</div>
+    <script src="js\christmasmusic.js"></script>
 </body>
 </html>
 <!--I love boys <3 -->
+
 
 
 
