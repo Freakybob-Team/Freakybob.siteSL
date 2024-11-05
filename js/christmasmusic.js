@@ -27,10 +27,10 @@ document.getElementById("current-song").textContent = `Playing: ${songTitles[cur
 document.getElementById("play-pause-button").onclick = () => {
     if (audio.paused) {
         audio.play();
-        document.getElementById("play-pause-button").textContent = "⏸️";
+        document.getElementById("play-pause-button").textContent = "II";
     } else {
         audio.pause();
-        document.getElementById("play-pause-button").textContent = "⏯️";
+        document.getElementById("play-pause-button").textContent = "▷II";
     }
 };
 
@@ -39,7 +39,7 @@ document.getElementById("next-button").onclick = () => {
     audio.src = songs[currentSongIndex];
     audio.play();
     document.getElementById("current-song").textContent = `Playing: ${songTitles[currentSongIndex]}`;
-    document.getElementById("play-pause-button").textContent = "⏸️";
+    document.getElementById("play-pause-button").textContent = "II";
 };
 
 document.getElementById("prev-button").onclick = () => {
@@ -47,5 +47,5 @@ document.getElementById("prev-button").onclick = () => {
     audio.src = songs[currentSongIndex];
     audio.play();
     document.getElementById("current-song").textContent = `Playing: ${songTitles[currentSongIndex]}`;
-    document.getElementById("play-pause-button").textContent = "⏸️";
+    document.getElementById("play-pause-button").textContent = "▷II";
 };
