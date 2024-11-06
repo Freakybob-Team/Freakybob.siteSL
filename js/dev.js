@@ -10,7 +10,7 @@ function showInfo(name) {
         'Nomaakip': 'Nomaakip helps fix the site and helped designing the lb website!',
     };
     const images = {
-        'Squirrel': 'https://static.wikia.nocookie.net/christmas-wiki/images/2/21/How-old-is-santa-6500cdaec0818.jpg/revision/latest?cb=20240708135338',
+        'Squirrel': 'images/pfps/santa.webp',
         'Wish': 'images/pfps/wish.png',
         'Hater': 'images/pfps/twitterhater.webp',
         'mpax': 'images/pfps/Mpax.png',
