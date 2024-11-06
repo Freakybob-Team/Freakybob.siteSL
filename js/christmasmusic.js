@@ -11,7 +11,8 @@ const songs = [
     "https://ia800304.us.archive.org/7/items/300-christmas-songs_202305/Santa%20Claus%20is%20Coming%20to%20Town%20-%20BRUCE%20SPRINGSTEEN.mp3",
     "https://ia800304.us.archive.org/7/items/300-christmas-songs_202305/Here%20Comes%20Santa%20Claus%20-%20DORIS%20DAY.mp3",
     "https://ia800304.us.archive.org/7/items/300-christmas-songs_202305/Have%20Yourself%20a%20Merry%20Little%20Christmas%20-%20DAVID%20ARCHULETA%20%26%20CHARICE.mp3",
-    "https://github.com/Freakybob-Team/Freakybob.site/raw/refs/heads/main/audio/i-dont-gyatt-a-lot-for-chrizzmas-MARIAH-CAREY-ALL-I-GOT-FOR-CHRISTMAS-IS-YOU-PARODY.mp3"
+    "https://github.com/Freakybob-Team/Freakybob.site/raw/refs/heads/main/audio/i-dont-gyatt-a-lot-for-chrizzmas-MARIAH-CAREY-ALL-I-GOT-FOR-CHRISTMAS-IS-YOU-PARODY.mp3",
+    "https://ia800304.us.archive.org/7/items/300-christmas-songs_202305/All%20I%20a%20want%20for%20Christmas%20is%20you%20-%20%26%20Mariah%20%Carey.mp3"
 ];
 const songTitles = [
     "A Holly Jolly Christmas - Burl Ives",
@@ -26,7 +27,8 @@ const songTitles = [
     "Santa is Coming to Town - Bruce Springsteen",
     "Here Comes Santa Claus - Doris Day",
     "Little Christmas - David A. & Charice",
-    "I Don't Gyatt a Lot for Chrizzmas - Mariah Carey"
+    "I Don't Gyatt a Lot for Chrizzmas - Mariah Carey",
+    "All I want for christmas is you - Mariah Carey"
 ];
 let currentSongIndex = 0;
 const audio = new Audio(songs[currentSongIndex]);
