@@ -12,7 +12,12 @@ const songs = [
     "https://ia800304.us.archive.org/7/items/300-christmas-songs_202305/Here%20Comes%20Santa%20Claus%20-%20DORIS%20DAY.mp3",
     "https://ia800304.us.archive.org/7/items/300-christmas-songs_202305/Have%20Yourself%20a%20Merry%20Little%20Christmas%20-%20DAVID%20ARCHULETA%20%26%20CHARICE.mp3",
     "https://github.com/Freakybob-Team/Freakybob.site/raw/refs/heads/main/audio/i-dont-gyatt-a-lot-for-chrizzmas-MARIAH-CAREY-ALL-I-GOT-FOR-CHRISTMAS-IS-YOU-PARODY.mp3",
-    "https://ia903101.us.archive.org/0/items/mariahcareyalliwantforchristmasisyou_201912/Mariah%20Carey%20-%20All%20I%20Want%20For%20Christmas%20Is%20You.mp3"
+    "https://ia903101.us.archive.org/0/items/mariahcareyalliwantforchristmasisyou_201912/Mariah%20Carey%20-%20All%20I%20Want%20For%20Christmas%20Is%20You.mp3",
+    // There you go. There's the 10 songs :sob: Not all are here yet tho
+    "https://ia601208.us.archive.org/20/items/ChristmasSongsFelizNavidad1/Christmas%20Songs%20-%20Feliz%20Navidad%281%29.mp3",
+    "https://ia600706.us.archive.org/5/items/ChristmasSong2018/Andy%20Williams%20-%20It%27s%20The%20Most%20Wonderful%20Time%20Of%20The%20Year.mp3",
+    "https://ia800706.us.archive.org/5/items/ChristmasSong2018/Michael%20Buble%20-%20It%27s%20Beginning%20To%20Look%20A%20Lot%20Like%20Christmas.mp3",
+    "https://ia801609.us.archive.org/22/items/FrostyTheSnowman_694/GeneAutrychristmas-FrostyTheSnowman.mp3"
 ];
 const songTitles = [
     "A Holly Jolly Christmas - Burl Ives",
@@ -28,7 +33,13 @@ const songTitles = [
     "Here Comes Santa Claus - Doris Day",
     "Little Christmas - David A. & Charice",
     "I Don't Gyatt a Lot for Chrizzmas - Mariah Carey",
-    "All I want for christmas is you - Mariah Carey"
+    "All I want for christmas is you - Mariah Carey",
+    "Feliz Navidad - José Feliciano",
+    "It's The Most Wonderful Time Of The Year - Andy Williams",
+    "It's Beginning To Look A Lot Like Christmas - Michael Buble",
+     "Frosty The Snowman - Gene Autry",
+    
+    
 ];
 let currentSongIndex = 0;
 const audio = new Audio(songs[currentSongIndex]);
