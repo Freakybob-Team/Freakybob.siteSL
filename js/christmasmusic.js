@@ -61,7 +61,8 @@ const brainrotTitles = [
 
 let currentSongIndex = 0;
 let isBrainrotMode = false;
-let audio = new Audio(songs[currentSongIndex]);
+const audio = new Audio(songs[currentSongIndex]);
+audio.loop = true;
 
 document.getElementById("current-song").textContent = `Playing: ${songTitles[currentSongIndex]}`;
 
