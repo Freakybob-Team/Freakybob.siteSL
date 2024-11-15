@@ -89,6 +89,14 @@ h1 {
 #social-buttons-container a {
     display: inline-block;
 }
+#github-button {
+transition: all 0.9s ease;
+}
+#github-button:hover {
+     background-color: #60036c;
+    box-shadow: 0 0 10px #cce10b, 0 0 20px #cce10b, 0 0 20px #cce10b;
+    transform: scale(1.1);
+}
 
 #social-buttons-container img {
     width: 40px;
