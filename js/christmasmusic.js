@@ -49,7 +49,7 @@ const songTitles = [
     "Step Into Christmas - Elton John", //20
     "Jingle Bells (Rock) - Brian Setzer Orchestra", //21
     "Rock And Roll Christmas - George Thorogood & The Destroyers", //22
-    "Sprite Cranberry - Lebon bon", /22
+    "Sprite Cranberry - Lebon bon", //22
     "This is Christmas music trust - Linkin Park", // 23
 ];
 
