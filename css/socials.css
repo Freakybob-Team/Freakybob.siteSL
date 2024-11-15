@@ -96,6 +96,7 @@ transition: all 0.9s ease;
      background-color: #60036c;
     box-shadow: 0 0 10px #cce10b, 0 0 20px #cce10b, 0 0 20px #cce10b;
     transform: scale(1.1);
+             border-radius: 5px;
 }
 
 #social-buttons-container img {
