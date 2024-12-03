@@ -24,6 +24,7 @@ const songs = [
     "https://archive.org/download/dababy2015murder-dababy2015murder1stchristmasspecial/02%20Lebron%20James%20%27Sprite%20Cranberry%27%20Commercial.mp3", // 23
     // This is christmas music, trust
     "https://github.com/5quirre1/in-the-end/raw/refs/heads/main/in-the-end.mp3", // 24
+    "https://media.memesoundeffects.com/2024/03/you-are-my-sunshine-.mp3" // 25
 ];
 
 const songTitles = [
@@ -51,17 +52,26 @@ const songTitles = [
     "Rock And Roll Christmas - George Thorogood & The Destroyers", //22
     "Sprite Cranberry - Lebon bon", //22
     "This is Christmas music trust - Linkin Park", // 23
+    "You are my sunshine - How would I know", // 24
+    "
 ];
 
 
 const brainrotSongs = [
     "https://github.com/Freakybob-Team/Freakybob.site/raw/refs/heads/main/audio/i-dont-gyatt-a-lot-for-chrizzmas-MARIAH-CAREY-ALL-I-GOT-FOR-CHRISTMAS-IS-YOU-PARODY.mp3", //23
     "https://github.com/Freakybob-Team/Freakybob.siteSL/raw/refs/heads/main/audio/rizzmas%20ew.mp3", //24
+    "https://media.memesoundeffects.com/2024/01/skibidi-toilet-song.mp3", //25
+    "https://media.memesoundeffects.com/2024/11/we-bring-the-boom.mp3", //26
+    "https://media.memesoundeffects.com/2024/10/KSI-Thick-Of-It-feat.-Trippie-Redd-Official-Lyric-Video.mp3"
+     
     // I'ma have to ask my classmates what brainrot songs to add cause they brainrotted frrr
 ];
 const brainrotTitles = [
     "I Don't Gyatt a Lot for Chrizzmas - Rizziah Carey",
     "It's Beginning To Look A gyatt Like Rizzmas- Skibidi Buble",
+    "Skibidi dop dop - Peak",
+    "We bring the boom!!! - greg",
+    "Thick of it - KSI",
 ];
 
 let currentSongIndex = 0;
