@@ -53,7 +53,6 @@ const songTitles = [
     "Sprite Cranberry - Lebon bon", //22
     "This is Christmas music trust - Linkin Park", // 23
     "You are my sunshine - How would I know", // 24
-    "
 ];
 
 
